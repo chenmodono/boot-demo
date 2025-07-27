@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>像素秘境 - 8位冒险</title>
+    <style>
+        @font-face {
+            font-family: 'PixelFont';
+            src: url('data:font/truetype;base64,') format('truetype');
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #0a0a0a;
+            font-family: 'Courier New', monospace;
+            color: #ff00ff;
+            image-rendering: pixelated;
+            image-rendering: -moz-crisp-edges;
+            image-rendering: crisp-edges;
+            overflow-x: hidden;
+        }
+        
+        /* 像素化背景 */
+        .pixel-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                linear-gradient(90deg, transparent 0%, rgba(255, 0, 255, 0.1) 25%, transparent 50%, rgba(0, 255, 255, 0.1) 75%, transparent 100%),
+                linear-gradient(0deg, transparent 0%, rgba(255, 0, 255, 0.05) 50%, transparent 100%);
+            background-size: 20px 20px, 20px 20px;
+            animation: pixelMove 4s linear infinite;
+            z-index: -2;
+        }
+        
+        @keyframes pixelMove {
+            0% { background-position: 0 0, 0 0; }
+            100% { background-position: 20px 20px, 0 20px; }
+        }
+        
+        /* 像素化网格覆盖 */
+        .pixel-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                repeating-linear-gradient(
+                    0deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(255, 0, 255, 0.03) 2px,
+                    rgba(255, 0, 255, 0.03) 4px
+                ),
+                repeating-linear-gradient(
+                    90deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(0, 255, 255, 0.03) 2px,
+                    rgba(0, 255, 255, 0.03) 4px
+                );
+            z-index: -1;
+        }
+        
+        /* 像素化容器 */
+        .pixel-container {
+            border: 4px solid #ff00ff;
+            background: #1a0a1a;
+            margin: 20px;
+            position: relative;
+        }
+        
+        .pixel-container::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(45deg, #ff00ff, #00ffff, #ffff00, #ff00ff);
+            z-index: -1;
+            animation: borderGlow 2s ease-in-out infinite alternate;
+        }
+        
+        @keyframes borderGlow {
+            0% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+        
+        /* 像素化标题 */
+        .pixel-title {
+            font-size: 4rem;
+            font-weight: bold;
+            text-align: center;
+            color: #ff00ff;
+            text-shadow: 
+                2px 2px 0 #00ffff,
+                4px 4px 0 #ffff00,
+                6px 6px 0 #ff0000;
+            margin: 40px 0;
+            animation: titleGlitch 3s ease-in-out infinite;
+        }
+        
+        @keyframes titleGlitch {
+            0%, 100% { transform: translate(0); }
+            20% { transform: translate(-2px, 2px); }
+            40% { transform: translate(-2px, -2px); }
+            60% { transform: translate(2px, 2px); }
+            80% { transform: translate(2px, -2px); }
+        }
+        
+        /* 像素化按钮 */
+        .pixel-btn {
+            background: #ff00ff;
+            color: #000;
+            border: none;
+            padding: 12px 24px;
+            font-family: 'Courier New', monospace;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            position: relative;
+            clip-path: polygon(
+                0 0, 
+                calc(100% - 8px) 0, 
+                100% 8px, 
+                100% 100%, 
+                8px 100%, 
+                0 calc(100% - 8px)
+            );
+            transition: all 0.1s ease;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .pixel-btn:hover {
+            background: #00ffff;
+            transform: translate(-2px, -2px);
+            box-shadow: 2px 2px 0 #ff00ff;
+        }
+        
+        .pixel-btn:active {
+            transform: translate(0, 0);
+            box-shadow: none;
+        }
+        
+        /* 像素化卡片 */
+        .pixel-card {
+            background: #2a1a2a;
+            border: 3px solid #ff00ff;
+            margin: 20px;
+            padding: 20px;
+            position: relative;
+            clip-path: polygon(
+                0 0, 
+                calc(100% - 12px) 0, 
+                100% 12px, 
+                100% calc(100% - 12px), 
+                calc(100% - 12px) 100%, 
+                12px 100%, 
+                0 calc(100% - 12px), 
+                0 12px
+            );
+            transition: all 0.2s ease;
+        }
+        
+        .pixel-card:hover {
+            border-color: #00ffff;
+            transform: translate(-4px, -4px);
+            box-shadow: 4px 4px 0 #ff00ff;
+        }
+        
+        /* 像素化图片容器 */
+        .pixel-image-container {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 20px;
+            position: relative;
+            border: 3px solid #ff00ff;
+            background: #000;
+            clip-path: polygon(
+                0 0, 
+                calc(100% - 8px) 0, 
+                100% 8px, 
+                100% calc(100% - 8px), 
+                calc(100% - 8px) 100%, 
+                8px 100%, 
+                0 calc(100% - 8px), 
+                0 8px
+            );
+        }
+        
+        .pixel-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            image-rendering: pixelated;
+            image-rendering: -moz-crisp-edges;
+            image-rendering: crisp-edges;
+            filter: contrast(1.2) saturate(1.5);
+        }
+        
+        .pixel-image-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                repeating-linear-gradient(
+                    0deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(255, 0, 255, 0.1) 2px,
+                    rgba(255, 0, 255, 0.1) 4px
+                ),
+                repeating-linear-gradient(
+                    90deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(0, 255, 255, 0.1) 2px,
+                    rgba(0, 255, 255, 0.1) 4px
+                );
+            pointer-events: none;
+        }
+        
+        .pixel-image-container:hover {
+            border-color: #00ffff;
+            transform: scale(1.05);
+            transition: all 0.3s ease;
+        }
+        
+        .pixel-image-container::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(45deg, #ff00ff, #00ffff, #ffff00, #ff00ff);
+            z-index: -1;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .pixel-image-container:hover::before {
+            opacity: 0.5;
+        }
+        
+        /* 画廊部分 */
+        .pixel-gallery {
+            margin: 40px 0;
+            padding: 20px;
+            background: #1a0a1a;
+            border: 4px solid #00ffff;
+            position: relative;
+        }
+        
+        .pixel-gallery::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(45deg, #00ffff, #ff00ff, #ffff00, #00ffff);
+            z-index: -1;
+            animation: galleryGlow 3s ease-in-out infinite alternate;
+        }
+        
+        @keyframes galleryGlow {
+            0% { opacity: 0.3; }
+            100% { opacity: 0.8; }
+        }
+        
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .gallery-item {
+            position: relative;
+            border: 2px solid #ff00ff;
+            background: #000;
+            overflow: hidden;
+            clip-path: polygon(
+                0 0, 
+                calc(100% - 6px) 0, 
+                100% 6px, 
+                100% calc(100% - 6px), 
+                calc(100% - 6px) 100%, 
+                6px 100%, 
+                0 calc(100% - 6px), 
+                0 6px
+            );
+        }
+        
+        .gallery-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            image-rendering: pixelated;
+            filter: contrast(1.3) saturate(1.2);
+            transition: all 0.3s ease;
+        }
+        
+        .gallery-item:hover img {
+            filter: contrast(1.5) saturate(1.5) hue-rotate(30deg);
+            transform: scale(1.1);
+        }
+        
+        .gallery-item::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                repeating-linear-gradient(
+                    45deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(255, 0, 255, 0.2) 2px,
+                    rgba(255, 0, 255, 0.2) 4px
+                );
+            pointer-events: none;
+        }
+        
+        /* 神秘预览区 */
+        .mystery-preview {
+            margin: 40px 0;
+            padding: 30px;
+            background: #0a0a0a;
+            border: 4px solid #ff0000;
+            text-align: center;
+            position: relative;
+        }
+        
+        .mystery-preview::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(circle at 50% 50%, rgba(255, 0, 0, 0.1) 0%, transparent 70%);
+            animation: mysteryPulse 2s ease-in-out infinite;
+        }
+        
+        @keyframes mysteryPulse {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 0.8; }
+        }
+        
+        .mystery-image {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto 20px;
+            border: 3px solid #ff0000;
+            background: #000;
+            position: relative;
+            overflow: hidden;
+            clip-path: polygon(
+                0 0, 
+                calc(100% - 12px) 0, 
+                100% 12px, 
+                100% calc(100% - 12px), 
+                calc(100% - 12px) 100%, 
+                12px 100%, 
+                0 calc(100% - 12px), 
+                0 12px
+            );
+        }
+        
+        .mystery-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            image-rendering: pixelated;
+            filter: blur(8px) contrast(1.5) saturate(0.3);
+            transition: all 0.5s ease;
+        }
+        
+        .mystery-image:hover img {
+            filter: blur(2px) contrast(1.8) saturate(1.5);
+        }
+        
+        .mystery-image::after {
+            content: '*** 神秘内容 ***';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #ff0000;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 0 #000;
+            pointer-events: none;
+            animation: blink 1s step-end infinite;
+        }
+        
+        /* 像素化文本 */
+        .pixel-text {
+            font-family: 'Courier New', monospace;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #00ffff;
+            text-shadow: 1px 1px 0 #000;
+        }
+        
+        .pixel-title-small {
+            font-size: 1.5rem;
+            color: #ffff00;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 2px 2px 0 #ff00ff;
+        }
+        
+        /* 网格布局 */
+        .pixel-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        
+        /* 导航栏 */
+        .pixel-nav {
+            background: #000;
+            border-bottom: 4px solid #ff00ff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .pixel-nav-item {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 10px 20px;
+            background: #1a0a1a;
+            border: 2px solid #ff00ff;
+            color: #ff00ff;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.2s ease;
+            clip-path: polygon(
+                0 0, 
+                calc(100% - 8px) 0, 
+                100% 8px, 
+                100% 100%, 
+                8px 100%, 
+                0 calc(100% - 8px)
+            );
+        }
+        
+        .pixel-nav-item:hover {
+            background: #ff00ff;
+            color: #000;
+            transform: translate(-2px, -2px);
+            box-shadow: 2px 2px 0 #00ffff;
+        }
+        
+        /* 神秘区域 */
+        .mystery-zone {
+            background: #0a0a0a;
+            border: 4px solid #ff0000;
+            margin: 40px 20px;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .mystery-zone::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 0, 0, 0.1), transparent);
+            animation: mysteryMove 3s ease-in-out infinite;
+        }
+        
+        @keyframes mysteryMove {
+            0% { left: -100%; }
+            50% { left: 100%; }
+            100% { left: -100%; }
+        }
+        
+        .mystery-title {
+            font-size: 2.5rem;
+            color: #ff0000;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 0 #000;
+            animation: pulse 2s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        
+        /* 像素化装饰 */
+        .pixel-decoration {
+            position: fixed;
+            width: 8px;
+            height: 8px;
+            background: #ff00ff;
+            animation: pixelFloat 5s ease-in-out infinite;
+        }
+        
+        @keyframes pixelFloat {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            25% { transform: translateY(-20px) rotate(90deg); }
+            50% { transform: translateY(0) rotate(180deg); }
+            75% { transform: translateY(-10px) rotate(270deg); }
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .pixel-title { font-size: 2.5rem; }
+            .pixel-grid { grid-template-columns: 1fr; }
+            .pixel-nav-item { display: block; margin: 5px 0; }
+        }
+        
+        /* 闪烁效果 */
+        .blink {
+            animation: blink 1s step-end infinite;
+        }
+        
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="pixel-bg"></div>
+    <div class="pixel-overlay"></div>
+    
+    <nav class="pixel-nav">
+        <a href="#" class="pixel-nav-item">秘密花园</a>
+        <a href="#" class="pixel-nav-item">私人定制</a>
+        <a href="#" class="pixel-nav-item">探索指南</a>
+        <a href="#" class="pixel-nav-item">神秘空间</a>
+    </nav>
+    
+    <div class="pixel-container">
+        <h1 class="pixel-title">像素秘境</h1>
+        <div class="pixel-text" style="text-align: center; font-size: 1.3rem; margin-bottom: 40px;">
+            ▼ 8位风格的神秘冒险即将开始 ▼
+        </div>
+        
+        <div class="pixel-grid">
+            <div class="pixel-card">
+                <div class="pixel-image-container">
+                    <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=200&h=200&fit=crop" alt="玫瑰密语" class="pixel-image">
+                    <div class="pixel-image-overlay"></div>
+                </div>
+                <h3 class="pixel-title-small">玫瑰密语</h3>
+                <p class="pixel-text">
+                    如同经典RPG中的神秘道具，这朵像素玫瑰隐藏着令人惊喜的秘密功能。
+                    每一次互动都会解锁新的体验模式。
+                </p>
+                <br>
+                <button class="pixel-btn">探索奥秘</button>
+            </div>
+            
+            <div class="pixel-card">
+                <div class="pixel-image-container">
+                    <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=200&h=200&fit=crop" alt="钻石之吻" class="pixel-image">
+                    <div class="pixel-image-overlay"></div>
+                </div>
+                <h3 class="pixel-title-small">钻石之吻</h3>
+                <p class="pixel-text">
+                    传说中的稀有装备，拥有无与伦比的属性加成。
+                    只有真正的勇者才能发挥出它的全部潜力。
+                </p>
+                <br>
+                <button class="pixel-btn">获取宝物</button>
+            </div>
+            
+            <div class="pixel-card">
+                <div class="pixel-image-container">
+                    <img src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=200&h=200&fit=crop" alt="月光幻想" class="pixel-image">
+                    <div class="pixel-image-overlay"></div>
+                </div>
+                <h3 class="pixel-title-small">月光幻想</h3>
+                <p class="pixel-text">
+                    夜晚模式专属道具，在月圆之夜会释放出神秘的光芒。
+                    据说能够引导迷路的冒险者找到正确的方向。
+                </p>
+                <br>
+                <button class="pixel-btn">夜间模式</button>
+            </div>
+            
+            <div class="pixel-card">
+                <div class="pixel-image-container">
+                    <img src="https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=200&h=200&fit=crop" alt="雷电之舞" class="pixel-image">
+                    <div class="pixel-image-overlay"></div>
+                </div>
+                <h3 class="pixel-title-small">雷电之舞</h3>
+                <p class="pixel-text">
+                    充满电能的神器，能够在关键时刻释放出强大的能量波动。
+                    使用时会产生震撼的视觉效果。
+                </p>
+                <br>
+                <button class="pixel-btn">充能启动</button>
+            </div>
+            
+            <div class="pixel-card">
+                <div class="pixel-image-container">
+                    <img src="https://images.unsplash.com/photo-1518709779052-a4ad6e4d6c9e?w=200&h=200&fit=crop" alt="水晶预言" class="pixel-image">
+                    <div class="pixel-image-overlay"></div>
+                </div>
+                <h3 class="pixel-title-small">水晶预言</h3>
+                <p class="pixel-text">
+                    魔法师专用的预言水晶，能够预知未来的快乐时光。
+                    每一次凝视都会带来不同的预言结果。
+                </p>
+                <br>
+                <button class="pixel-btn">占卜未来</button>
+            </div>
+            
+            <div class="pixel-card">
+                <div class="pixel-image-container">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop" alt="星辰密码" class="pixel-image">
+                    <div class="pixel-image-overlay"></div>
+                </div>
+                <h3 class="pixel-title-small">星辰密码</h3>
+                <p class="pixel-text">
+                    来自遥远星系的神秘信号，包含着宇宙的终极秘密。
+                    解码成功后将获得前所未有的体验。
+                </p>
+                <br>
+                <button class="pixel-btn">解码信号</button>
+            </div>
+        </div>
+        
+        <!-- 画廊展示区 -->
+        <div class="pixel-gallery">
+            <h2 class="pixel-title-small" style="text-align: center; margin-bottom: 20px; font-size: 2rem;">
+                ▼ 神秘收藏画廊 ▼
+            </h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=300&h=200&fit=crop" alt="Collection 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=300&h=200&fit=crop" alt="Collection 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=300&h=200&fit=crop" alt="Collection 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=300&h=200&fit=crop" alt="Collection 4">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1518709779052-a4ad6e4d6c9e?w=300&h=200&fit=crop" alt="Collection 5">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&h=200&fit=crop" alt="Collection 6">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="mystery-zone">
+        <h2 class="mystery-title">*** 警告：进入禁区 ***</h2>
+        <div class="mystery-preview">
+            <div class="mystery-image">
+                <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=400&fit=crop" alt="神秘内容">
+            </div>
+        </div>
+        <p class="pixel-text" style="font-size: 1.2rem; color: #ff0000;">
+            只有等级达到18级以上的冒险者才能进入此区域<br>
+            <span class="blink">▶ 是否确认进入？ ◀</span>
+        </p>
+        <br><br>
+        <button class="pixel-btn" style="background: #ff0000; font-size: 1.3rem;">
+            [YES] 进入禁区
+        </button>
+    </div>
+    
+    <div style="text-align: center; padding: 40px; background: #000; color: #666;">
+        <p>© 2025 像素秘境 | 8-BIT ADVENTURE | 隐私保护 | 安全第一</p>
+    </div>
+    
+    <script>
+        // 创建像素装饰
+        function createPixelDecorations() {
+            const colors = ['#ff00ff', '#00ffff', '#ffff00', '#ff0000'];
+            
+            for (let i = 0; i < 15; i++) {
+                const pixel = document.createElement('div');
+                pixel.className = 'pixel-decoration';
+                pixel.style.left = Math.random() * 100 + '%';
+                pixel.style.top = Math.random() * 100 + '%';
+                pixel.style.background = colors[Math.floor(Math.random() * colors.length)];
+                pixel.style.animationDelay = Math.random() * 5 + 's';
+                document.body.appendChild(pixel);
+            }
+        }
+        
+        // 按钮点击音效模拟
+        function initPixelButtons() {
+            const buttons = document.querySelectorAll('.pixel-btn');
+            
+            buttons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // 模拟8位游戏音效的视觉反馈
+                    const originalText = this.textContent;
+                    this.textContent = '*** 已激活 ***';
+                    this.style.background = '#00ff00';
+                    
+                    setTimeout(() => {
+                        this.textContent = originalText;
+                        this.style.background = '#ff00ff';
+                    }, 500);
+                });
+            });
+        }
+        
+        // 像素化故障效果
+        function createGlitchEffect() {
+            const cards = document.querySelectorAll('.pixel-card');
+            
+            setInterval(() => {
+                const randomCard = cards[Math.floor(Math.random() * cards.length)];
+                randomCard.style.transform = 'translate(' + 
+                    (Math.random() * 4 - 2) + 'px, ' + 
+                    (Math.random() * 4 - 2) + 'px)';
+                
+                setTimeout(() => {
+                    randomCard.style.transform = 'translate(0, 0)';
+                }, 100);
+            }, 2000);
+        }
+        
+        // 初始化
+        document.addEventListener('DOMContentLoaded', function() {
+            createPixelDecorations();
+            initPixelButtons();
+            createGlitchEffect();
+        });
+    </script>
+</body>
+</html>

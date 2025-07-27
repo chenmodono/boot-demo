@@ -1,0 +1,3804 @@
+[
+  {
+    "adType": "nature",
+    "cateId1": 130823000,
+    "cateId2": 126150002,
+    "cateId3": 126128004,
+    "company": "天津晟贺商贸有限公司",
+    "coreWord": null,
+    "debugMark": "nature_o0_i0",
+    "imgUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01Knw3BK1ijh6GR7LoO_!!2200585264449-0-cib.jpg",
+    "imgUrlList": [
+      "https://cbu01.alicdn.com/img/ibank/O1CN01Knw3BK1ijh6GR7LoO_!!2200585264449-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01nEy2zp1ijh6HPFClA_!!2200585264449-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01AJ5pyk1ijh9Hta6Ey_!!2200585264449-0-cib.jpg"
+    ],
+    "itemId": "847305387868",
+    "itemType": null,
+    "leafCateId": 126128004,
+    "loginId": "计生用品实力厂家",
+    "mainVideoDuration": null,
+    "mainVideoUrl": null,
+    "marketingTagList": [],
+    "memberId": "b2b-22005852644498bdf2",
+    "memberTags": null,
+    "odUrl": "https://detail.1688.com/offer/847305387868.html?src=zhanwai&ptid=01770000000438a5de101a4f919e50c1",
+    "offerBangdan": null,
+    "offerCPVList": [],
+    "offerId": 847305387868,
+    "offerPromotionDTO": null,
+    "offerRepurchaseRate": "0.307",
+    "offerTagMap": {
+      "YJBY": {
+        "id": "YJBY",
+        "tagName": "一件包邮",
+        "tagType1": "tagCenter",
+        "tagType2": null,
+        "value": "4360897"
+      },
+      "3日达": {
+        "id": null,
+        "tagName": "3日达",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "新客宝": {
+        "id": null,
+        "tagName": "新客宝",
+        "tagType1": "价格力",
+        "tagType2": "利益点",
+        "value": null
+      },
+      "一件代发": {
+        "id": null,
+        "tagName": "一件代发",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "21460.092599023417": {
+        "id": null,
+        "tagName": "搜索gmv",
+        "tagType1": "转化力",
+        "tagType2": "成交力",
+        "value": "21460.092599023417"
+      },
+      "0.302491103202847": {
+        "id": null,
+        "tagName": null,
+        "tagType1": "转化力",
+        "tagType2": "复购",
+        "value": "0.302491103202847"
+      },
+      "HP": {
+        "id": "HP",
+        "tagName": "混批",
+        "tagType1": "offerTag",
+        "tagType2": null,
+        "value": "17026"
+      },
+      "41404.0": {
+        "id": null,
+        "tagName": "热搜商品",
+        "tagType1": "转化力",
+        "tagType2": "获客力",
+        "value": "41404.0"
+      },
+      "镇店之宝": {
+        "id": null,
+        "tagName": "镇店之宝",
+        "tagType1": "商品力",
+        "tagType2": "爆品",
+        "value": ""
+      },
+      "实力商家": {
+        "id": null,
+        "tagName": "实力商家",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "七天包换": {
+        "id": null,
+        "tagName": "七天包换",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "混批": {
+        "id": null,
+        "tagName": "混批",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "_48HFH": {
+        "id": "_48HFH",
+        "tagName": "48H发货",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:ssbxsfh"
+      },
+      "SLSJ": {
+        "id": "SLSJ",
+        "tagName": "实力商家",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "205185"
+      },
+      "_7TBH": {
+        "id": "_7TBH",
+        "tagName": "7天包换",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:qtbh"
+      },
+      "深度验厂": {
+        "id": null,
+        "tagName": "深度验厂",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "_7_24HXY": {
+        "id": "_7_24HXY",
+        "tagName": "7×24H响应",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "161664"
+      },
+      "近90天低价": {
+        "id": null,
+        "tagName": "近90天低价",
+        "tagType1": "价格力",
+        "tagType2": "利益点",
+        "value": null
+      },
+      "金冠品": {
+        "id": null,
+        "tagName": "金冠品",
+        "tagType1": "商品力",
+        "tagType2": "爆品",
+        "value": ""
+      },
+      "深度验商": {
+        "id": null,
+        "tagName": "深度验商",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      }
+    },
+    "price": "12.65",
+    "reqGrade": null,
+    "saleVolume": "4000+",
+    "secureMobilePhone": null,
+    "sellerUserId": null,
+    "shopRepurchaseRate": "0.2747",
+    "simpleSubject": "久爱美良子倒模实体娃娃阴臀半身男用飞机杯自慰成人用品批发代发",
+    "subject": "久爱美良子倒模实体娃娃阴臀半身男用飞机杯自慰成人用品批发代发",
+    "tpYear": 7,
+    "unit": "个"
+  },
+  {
+    "adType": "nature",
+    "cateId1": 130823000,
+    "cateId2": 126150002,
+    "cateId3": 126128004,
+    "company": "宁波轻芯健康科技有限公司",
+    "coreWord": null,
+    "debugMark": "nature_o0_i1",
+    "imgUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01QAMYSX2IKnm5oBy3X_!!2215697309268-0-cib.jpg",
+    "imgUrlList": [
+      "https://cbu01.alicdn.com/img/ibank/O1CN01QAMYSX2IKnm5oBy3X_!!2215697309268-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01s20aKD2IKnnxkMy4Y_!!2215697309268-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01jiviS52IKno3SHfLG_!!2215697309268-0-cib.jpg"
+    ],
+    "itemId": "888248408422",
+    "itemType": null,
+    "leafCateId": 126128004,
+    "loginId": "宁波轻芯",
+    "mainVideoDuration": null,
+    "mainVideoUrl": null,
+    "marketingTagList": [
+      {
+        "activityId": "94934979064",
+        "activityName": null,
+        "couponId": "6986475587",
+        "couponName": "收藏有礼",
+        "couponType": 0,
+        "discountFeeYuan": 3.0,
+        "sellerUserId": null,
+        "startFeeYuan": 100.0,
+        "type": "xpyl"
+      }
+    ],
+    "memberId": "b2b-22156973092685ac96",
+    "memberTags": null,
+    "odUrl": "https://detail.1688.com/offer/888248408422.html?src=zhanwai&ptid=01770000000438a5de101a4f919e50c1",
+    "offerBangdan": null,
+    "offerCPVList": [],
+    "offerId": 888248408422,
+    "offerPromotionDTO": null,
+    "offerRepurchaseRate": "0.4908",
+    "offerTagMap": {
+      "0.48607367475292": {
+        "id": null,
+        "tagName": null,
+        "tagType1": "转化力",
+        "tagType2": "复购",
+        "value": "0.48607367475292"
+      },
+      "YJBY": {
+        "id": "YJBY",
+        "tagName": "一件包邮",
+        "tagType1": "tagCenter",
+        "tagType2": null,
+        "value": "4360897"
+      },
+      "3日达": {
+        "id": null,
+        "tagName": "3日达",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "37974.0": {
+        "id": null,
+        "tagName": "热搜商品",
+        "tagType1": "转化力",
+        "tagType2": "获客力",
+        "value": "37974.0"
+      },
+      "一件代发": {
+        "id": null,
+        "tagName": "一件代发",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "HP": {
+        "id": "HP",
+        "tagName": "混批",
+        "tagType1": "offerTag",
+        "tagType2": null,
+        "value": "17026"
+      },
+      "镇店之宝": {
+        "id": null,
+        "tagName": "镇店之宝",
+        "tagType1": "商品力",
+        "tagType2": "爆品",
+        "value": ""
+      },
+      "实力商家": {
+        "id": null,
+        "tagName": "实力商家",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "七天包换": {
+        "id": null,
+        "tagName": "七天包换",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "混批": {
+        "id": null,
+        "tagName": "混批",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "CZBZ": {
+        "id": "CZBZ",
+        "tagName": "材质保障",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:czbz"
+      },
+      "免费赊账": {
+        "id": null,
+        "tagName": "免费赊账",
+        "tagType1": "金融",
+        "tagType2": "金融服务",
+        "value": null
+      },
+      "XCHF_MFSZ": {
+        "id": "XCHF_MFSZ",
+        "tagName": "先采后付",
+        "tagType1": "holidayTag",
+        "tagType2": null,
+        "value": "50000114"
+      },
+      "A库": {
+        "id": null,
+        "tagName": "A库",
+        "tagType1": "商品力",
+        "tagType2": "趋势品",
+        "value": null
+      },
+      "_48HFH": {
+        "id": "_48HFH",
+        "tagName": "48H发货",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:ssbxsfh"
+      },
+      "SLSJ": {
+        "id": "SLSJ",
+        "tagName": "实力商家",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "205185"
+      },
+      "_7TBH": {
+        "id": "_7TBH",
+        "tagName": "7天包换",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:qtbh"
+      },
+      "跨境品": {
+        "id": null,
+        "tagName": "跨境品",
+        "tagType1": "商品力",
+        "tagType2": "跨境品",
+        "value": null
+      },
+      "10308.454067545374": {
+        "id": null,
+        "tagName": "搜索gmv",
+        "tagType1": "转化力",
+        "tagType2": "成交力",
+        "value": "10308.454067545374"
+      },
+      "深度验厂": {
+        "id": null,
+        "tagName": "深度验厂",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "_7_24HXY": {
+        "id": "_7_24HXY",
+        "tagName": "7×24H响应",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "161664"
+      },
+      "0.9929351316634554": {
+        "id": null,
+        "tagName": "好评率",
+        "tagType1": "转化力",
+        "tagType2": "评价",
+        "value": "0.9929351316634554"
+      },
+      "金冠品": {
+        "id": null,
+        "tagName": "金冠品",
+        "tagType1": "商品力",
+        "tagType2": "爆品",
+        "value": ""
+      }
+    },
+    "price": "1.00",
+    "reqGrade": null,
+    "saleVolume": "2万+",
+    "secureMobilePhone": null,
+    "sellerUserId": null,
+    "shopRepurchaseRate": "0.4735",
+    "simpleSubject": "飞机杯倒模名器阴臀大屁股半身实体娃娃男用自慰器具情趣性爱用品",
+    "subject": "飞机杯倒模名器阴臀大屁股半身实体娃娃男用自慰器具情趣性爱用品",
+    "tpYear": 3,
+    "unit": "个"
+  },
+  {
+    "adType": "nature",
+    "cateId1": 130823000,
+    "cateId2": 126150002,
+    "cateId3": 126128004,
+    "company": "宁波久心健康科技有限公司",
+    "coreWord": null,
+    "debugMark": "nature_o0_i2",
+    "imgUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01xUq30U2GAbkxHzOF6_!!2215876418975-0-cib.jpg",
+    "imgUrlList": [
+      "https://cbu01.alicdn.com/img/ibank/O1CN01xUq30U2GAbkxHzOF6_!!2215876418975-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01xh6VV22GAbkypZBlr_!!2215876418975-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01ksU05R2GAbkwaiak6_!!2215876418975-0-cib.jpg"
+    ],
+    "itemId": "725428476038",
+    "itemType": null,
+    "leafCateId": 126128004,
+    "loginId": "宁波久爱健康",
+    "mainVideoDuration": null,
+    "mainVideoUrl": null,
+    "marketingTagList": [],
+    "memberId": "b2b-2215876418975793e5",
+    "memberTags": null,
+    "odUrl": "https://detail.1688.com/offer/725428476038.html?src=zhanwai&ptid=01770000000438a5de101a4f919e50c1",
+    "offerBangdan": null,
+    "offerCPVList": [],
+    "offerId": 725428476038,
+    "offerPromotionDTO": null,
+    "offerRepurchaseRate": "0.4152",
+    "offerTagMap": {
+      "3日达": {
+        "id": null,
+        "tagName": "3日达",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "一件代发": {
+        "id": null,
+        "tagName": "一件代发",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "0.4134366925064599": {
+        "id": null,
+        "tagName": null,
+        "tagType1": "转化力",
+        "tagType2": "复购",
+        "value": "0.4134366925064599"
+      },
+      "HP": {
+        "id": "HP",
+        "tagName": "混批",
+        "tagType1": "offerTag",
+        "tagType2": null,
+        "value": "17026"
+      },
+      "镇店之宝": {
+        "id": null,
+        "tagName": "镇店之宝",
+        "tagType1": "商品力",
+        "tagType2": "爆品",
+        "value": ""
+      },
+      "实力商家": {
+        "id": null,
+        "tagName": "实力商家",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "18342.0": {
+        "id": null,
+        "tagName": "热搜商品",
+        "tagType1": "转化力",
+        "tagType2": "获客力",
+        "value": "18342.0"
+      },
+      "七天包换": {
+        "id": null,
+        "tagName": "七天包换",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "混批": {
+        "id": null,
+        "tagName": "混批",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "CZBZ": {
+        "id": "CZBZ",
+        "tagName": "材质保障",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:czbz"
+      },
+      "免费赊账": {
+        "id": null,
+        "tagName": "免费赊账",
+        "tagType1": "金融",
+        "tagType2": "金融服务",
+        "value": null
+      },
+      "XCHF_MFSZ": {
+        "id": "XCHF_MFSZ",
+        "tagName": "先采后付",
+        "tagType1": "holidayTag",
+        "tagType2": null,
+        "value": "50000114"
+      },
+      "A库": {
+        "id": null,
+        "tagName": "A库",
+        "tagType1": "商品力",
+        "tagType2": "趋势品",
+        "value": null
+      },
+      "_48HFH": {
+        "id": "_48HFH",
+        "tagName": "48H发货",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:ssbxsfh"
+      },
+      "3422.504791160016": {
+        "id": null,
+        "tagName": "搜索gmv",
+        "tagType1": "转化力",
+        "tagType2": "成交力",
+        "value": "3422.504791160016"
+      },
+      "SLSJ": {
+        "id": "SLSJ",
+        "tagName": "实力商家",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "205185"
+      },
+      "_7TBH": {
+        "id": "_7TBH",
+        "tagName": "7天包换",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:qtbh"
+      },
+      "跨境品": {
+        "id": null,
+        "tagName": "跨境品",
+        "tagType1": "商品力",
+        "tagType2": "跨境品",
+        "value": null
+      },
+      "0.9985166872682324": {
+        "id": null,
+        "tagName": "好评率",
+        "tagType1": "转化力",
+        "tagType2": "评价",
+        "value": "0.9985166872682324"
+      },
+      "深度验厂": {
+        "id": null,
+        "tagName": "深度验厂",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "_7_24HXY": {
+        "id": "_7_24HXY",
+        "tagName": "7×24H响应",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "161664"
+      },
+      "金冠品": {
+        "id": null,
+        "tagName": "金冠品",
+        "tagType1": "商品力",
+        "tagType2": "爆品",
+        "value": ""
+      }
+    },
+    "price": "14.50",
+    "reqGrade": null,
+    "saleVolume": "6万+",
+    "secureMobilePhone": null,
+    "sellerUserId": null,
+    "shopRepurchaseRate": "0.4145",
+    "simpleSubject": "久爱倒膜大屁股飞机杯半身实体娃娃成人用品男人玩具自慰器馒头穴",
+    "subject": "久爱倒膜大屁股飞机杯半身实体娃娃成人用品男人玩具自慰器馒头穴",
+    "tpYear": 3,
+    "unit": "个"
+  },
+  {
+    "adType": "nature",
+    "cateId1": 130823000,
+    "cateId2": 126150002,
+    "cateId3": 126128004,
+    "company": "安徽一念之间智能科技有限公司",
+    "coreWord": null,
+    "debugMark": "nature_o0_i3",
+    "imgUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01j9Bnyq1Opq5OFVvOI_!!2208120351755-0-cib.jpg",
+    "imgUrlList": [
+      "https://cbu01.alicdn.com/img/ibank/O1CN01j9Bnyq1Opq5OFVvOI_!!2208120351755-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01zFuyKh1Opq5OGDUjv_!!2208120351755-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01N4bnkJ1Opq5MDhM7L_!!2208120351755-0-cib.jpg"
+    ],
+    "itemId": "834594576033",
+    "itemType": null,
+    "leafCateId": 126128004,
+    "loginId": "安徽一念之间有限公司",
+    "mainVideoDuration": null,
+    "mainVideoUrl": null,
+    "marketingTagList": [
+      {
+        "activityId": "1217634103",
+        "activityName": "店铺首单立减",
+        "couponId": null,
+        "couponName": null,
+        "couponType": null,
+        "discountFeeYuan": 1.0,
+        "sellerUserId": null,
+        "startFeeYuan": 4.0,
+        "type": "xrsdljj"
+      }
+    ],
+    "memberId": "b2b-22081203517557fe82",
+    "memberTags": null,
+    "odUrl": "https://detail.1688.com/offer/834594576033.html?src=zhanwai&ptid=01770000000438a5de101a4f919e50c1",
+    "offerBangdan": null,
+    "offerCPVList": [],
+    "offerId": 834594576033,
+    "offerPromotionDTO": null,
+    "offerRepurchaseRate": "0.178",
+    "offerTagMap": {
+      "3日达": {
+        "id": null,
+        "tagName": "3日达",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "0.1693548387096774": {
+        "id": null,
+        "tagName": null,
+        "tagType1": "转化力",
+        "tagType2": "复购",
+        "value": "0.1693548387096774"
+      },
+      "新客宝": {
+        "id": null,
+        "tagName": "新客宝",
+        "tagType1": "价格力",
+        "tagType2": "利益点",
+        "value": null
+      },
+      "5653.0": {
+        "id": null,
+        "tagName": "热搜商品",
+        "tagType1": "转化力",
+        "tagType2": "获客力",
+        "value": "5653.0"
+      },
+      "HP": {
+        "id": "HP",
+        "tagName": "混批",
+        "tagType1": "offerTag",
+        "tagType2": null,
+        "value": "17026"
+      },
+      "0.9899665551839465": {
+        "id": null,
+        "tagName": "好评率",
+        "tagType1": "转化力",
+        "tagType2": "评价",
+        "value": "0.9899665551839465"
+      },
+      "实力商家": {
+        "id": null,
+        "tagName": "实力商家",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "七天包换": {
+        "id": null,
+        "tagName": "七天包换",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "潜力品": {
+        "id": null,
+        "tagName": "潜力品",
+        "tagType1": "商品力",
+        "tagType2": "主流品",
+        "value": ""
+      },
+      "1139.3200000000004": {
+        "id": null,
+        "tagName": "搜索gmv",
+        "tagType1": "转化力",
+        "tagType2": "成交力",
+        "value": "1139.3200000000004"
+      },
+      "混批": {
+        "id": null,
+        "tagName": "混批",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "_48HFH": {
+        "id": "_48HFH",
+        "tagName": "48H发货",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:ssbxsfh"
+      },
+      "SLSJ": {
+        "id": "SLSJ",
+        "tagName": "实力商家",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "205185"
+      },
+      "_7TBH": {
+        "id": "_7TBH",
+        "tagName": "7天包换",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:qtbh"
+      },
+      "深度验厂": {
+        "id": null,
+        "tagName": "深度验厂",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "_7_24HXY": {
+        "id": "_7_24HXY",
+        "tagName": "7×24H响应",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "161664"
+      },
+      "深度验商": {
+        "id": null,
+        "tagName": "深度验商",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      }
+    },
+    "price": "15.50",
+    "reqGrade": null,
+    "saleVolume": "1000+",
+    "secureMobilePhone": null,
+    "sellerUserId": null,
+    "shopRepurchaseRate": "0.3678",
+    "simpleSubject": "久爱美良子名器倒模半身实体娃娃一字马男用阴臀倒模自慰器情趣品",
+    "subject": "久爱美良子名器倒模半身实体娃娃一字马男用阴臀倒模自慰器情趣品",
+    "tpYear": 6,
+    "unit": "盒"
+  },
+  {
+    "adType": "nature",
+    "cateId1": 130823000,
+    "cateId2": 126150002,
+    "cateId3": 126128004,
+    "company": "郑州鑫琦美商贸有限公司",
+    "coreWord": null,
+    "debugMark": "nature_o0_i4",
+    "imgUrl": "https://cbu01.alicdn.com/img/ibank/O1CN014gpnAd2B0v6W26LFN_!!2213931378277-0-cib.jpg",
+    "imgUrlList": [
+      "https://cbu01.alicdn.com/img/ibank/O1CN014gpnAd2B0v6W26LFN_!!2213931378277-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01Ve2nsn2B0v6QzP6aY_!!2213931378277-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01S3g7un2B0vCZe41hU_!!2213931378277-0-cib.jpg"
+    ],
+    "itemId": "732859588210",
+    "itemType": null,
+    "leafCateId": 126128004,
+    "loginId": "xqm2023",
+    "mainVideoDuration": null,
+    "mainVideoUrl": null,
+    "marketingTagList": [],
+    "memberId": "b2b-221393137827725547",
+    "memberTags": null,
+    "odUrl": "https://detail.1688.com/offer/732859588210.html?src=zhanwai&ptid=01770000000438a5de101a4f919e50c1",
+    "offerBangdan": null,
+    "offerCPVList": [],
+    "offerId": 732859588210,
+    "offerPromotionDTO": null,
+    "offerRepurchaseRate": "0.3284",
+    "offerTagMap": {
+      "3日达": {
+        "id": null,
+        "tagName": "3日达",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "一件代发": {
+        "id": null,
+        "tagName": "一件代发",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "HP": {
+        "id": "HP",
+        "tagName": "混批",
+        "tagType1": "offerTag",
+        "tagType2": null,
+        "value": "17026"
+      },
+      "镇店之宝": {
+        "id": null,
+        "tagName": "镇店之宝",
+        "tagType1": "商品力",
+        "tagType2": "爆品",
+        "value": ""
+      },
+      "实力商家": {
+        "id": null,
+        "tagName": "实力商家",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "七天包换": {
+        "id": null,
+        "tagName": "七天包换",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "潜力品": {
+        "id": null,
+        "tagName": "潜力品",
+        "tagType1": "商品力",
+        "tagType2": "主流品",
+        "value": ""
+      },
+      "699.5": {
+        "id": null,
+        "tagName": "搜索gmv",
+        "tagType1": "转化力",
+        "tagType2": "成交力",
+        "value": "699.5"
+      },
+      "混批": {
+        "id": null,
+        "tagName": "混批",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "免费赊账": {
+        "id": null,
+        "tagName": "免费赊账",
+        "tagType1": "金融",
+        "tagType2": "金融服务",
+        "value": null
+      },
+      "XCHF_MFSZ": {
+        "id": "XCHF_MFSZ",
+        "tagName": "先采后付",
+        "tagType1": "holidayTag",
+        "tagType2": null,
+        "value": "50000114"
+      },
+      "0.30120481927710846": {
+        "id": null,
+        "tagName": null,
+        "tagType1": "转化力",
+        "tagType2": "复购",
+        "value": "0.30120481927710846"
+      },
+      "_48HFH": {
+        "id": "_48HFH",
+        "tagName": "48H发货",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:ssbxsfh"
+      },
+      "SLSJ": {
+        "id": "SLSJ",
+        "tagName": "实力商家",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "205185"
+      },
+      "_7TBH": {
+        "id": "_7TBH",
+        "tagName": "7天包换",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:qtbh"
+      },
+      "18486.0": {
+        "id": null,
+        "tagName": "热搜商品",
+        "tagType1": "转化力",
+        "tagType2": "获客力",
+        "value": "18486.0"
+      },
+      "深度验厂": {
+        "id": null,
+        "tagName": "深度验厂",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "_7_24HXY": {
+        "id": "_7_24HXY",
+        "tagName": "7×24H响应",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "161664"
+      },
+      "深度验商": {
+        "id": null,
+        "tagName": "深度验商",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      }
+    },
+    "price": "10.50",
+    "reqGrade": null,
+    "saleVolume": "3000+",
+    "secureMobilePhone": null,
+    "sellerUserId": null,
+    "shopRepurchaseRate": "0.1745",
+    "simpleSubject": "飞机杯男用自慰器性玩具半身实体娃娃倒模名器阴臀成人用品小师妹",
+    "subject": "飞机杯男用自慰器性玩具半身实体娃娃倒模名器阴臀成人用品小师妹",
+    "tpYear": 4,
+    "unit": "个"
+  },
+  {
+    "adType": "nature",
+    "cateId1": 130823000,
+    "cateId2": 126150002,
+    "cateId3": 126128004,
+    "company": "上海醉清风健康科技股份有限公司",
+    "coreWord": null,
+    "debugMark": "nature_o0_i5",
+    "imgUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01oIYId61ok33gB03tu_!!939665262-0-cib.jpg",
+    "imgUrlList": [
+      "https://cbu01.alicdn.com/img/ibank/O1CN01oIYId61ok33gB03tu_!!939665262-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01HkfTpR1ok33gIqBlK_!!939665262-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01OfgjGH1ok2rA2HFm7_!!939665262-0-cib.jpg"
+    ],
+    "itemId": "647060467450",
+    "itemType": null,
+    "leafCateId": 126128004,
+    "loginId": "yixingfangsc",
+    "mainVideoDuration": null,
+    "mainVideoUrl": null,
+    "marketingTagList": [],
+    "memberId": "yixingfangsc",
+    "memberTags": null,
+    "odUrl": "https://detail.1688.com/offer/647060467450.html?src=zhanwai&ptid=01770000000438a5de101a4f919e50c1",
+    "offerBangdan": null,
+    "offerCPVList": [],
+    "offerId": 647060467450,
+    "offerPromotionDTO": null,
+    "offerRepurchaseRate": "0.3826",
+    "offerTagMap": {
+      "3日达": {
+        "id": null,
+        "tagName": "3日达",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "一件代发": {
+        "id": null,
+        "tagName": "一件代发",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "HP": {
+        "id": "HP",
+        "tagName": "混批",
+        "tagType1": "offerTag",
+        "tagType2": null,
+        "value": "17026"
+      },
+      "实力商家": {
+        "id": null,
+        "tagName": "实力商家",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "七天包换": {
+        "id": null,
+        "tagName": "七天包换",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "混批": {
+        "id": null,
+        "tagName": "混批",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "少货必赔": {
+        "id": null,
+        "tagName": "少货必赔",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "3006.608625063977": {
+        "id": null,
+        "tagName": "搜索gmv",
+        "tagType1": "转化力",
+        "tagType2": "成交力",
+        "value": "3006.608625063977"
+      },
+      "_48HFH": {
+        "id": "_48HFH",
+        "tagName": "48H发货",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:ssbxsfh"
+      },
+      "SLSJ": {
+        "id": "SLSJ",
+        "tagName": "实力商家",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "205185"
+      },
+      "_7TBH": {
+        "id": "_7TBH",
+        "tagName": "7天包换",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:qtbh"
+      },
+      "0.3812849162011173": {
+        "id": null,
+        "tagName": null,
+        "tagType1": "转化力",
+        "tagType2": "复购",
+        "value": "0.3812849162011173"
+      },
+      "4177.0": {
+        "id": null,
+        "tagName": "热搜商品",
+        "tagType1": "转化力",
+        "tagType2": "获客力",
+        "value": "4177.0"
+      },
+      "跨境品": {
+        "id": null,
+        "tagName": "跨境品",
+        "tagType1": "商品力",
+        "tagType2": "跨境品",
+        "value": null
+      },
+      "0.9992090693382547": {
+        "id": null,
+        "tagName": "好评率",
+        "tagType1": "转化力",
+        "tagType2": "评价",
+        "value": "0.9992090693382547"
+      },
+      "深度验厂": {
+        "id": null,
+        "tagName": "深度验厂",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "_7_24HXY": {
+        "id": "_7_24HXY",
+        "tagName": "7×24H响应",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "161664"
+      },
+      "金冠品": {
+        "id": null,
+        "tagName": "金冠品",
+        "tagType1": "商品力",
+        "tagType2": "爆品",
+        "value": ""
+      },
+      "深度验商": {
+        "id": null,
+        "tagName": "深度验商",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      }
+    },
+    "price": "13.00",
+    "reqGrade": null,
+    "saleVolume": "23万+",
+    "secureMobilePhone": null,
+    "sellerUserId": null,
+    "shopRepurchaseRate": "0.4728",
+    "simpleSubject": "魅爱空间水濑琉璃动漫飞机杯名器阴臀倒模成人用品用品男性40/箱",
+    "subject": "魅爱空间水濑琉璃动漫飞机杯名器阴臀倒模成人用品用品男性40/箱",
+    "tpYear": 14,
+    "unit": "个"
+  },
+  {
+    "adType": "nature",
+    "cateId1": 130823000,
+    "cateId2": 126150002,
+    "cateId3": 126128004,
+    "company": "东莞市横沥雅鑫成人用品厂",
+    "coreWord": null,
+    "debugMark": "nature_o0_i6",
+    "imgUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01Y7fH181bncxsMzzUV_!!2851343510-0-cib.jpg",
+    "imgUrlList": [
+      "https://cbu01.alicdn.com/img/ibank/O1CN01Y7fH181bncxsMzzUV_!!2851343510-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN014sB9zw1bncxwym2ko_!!2851343510-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01mhyT611bncxyfXuHF_!!2851343510-0-cib.jpg"
+    ],
+    "itemId": "671284121489",
+    "itemType": null,
+    "leafCateId": 126128004,
+    "loginId": "东莞雅鑫硅胶塑胶厂",
+    "mainVideoDuration": null,
+    "mainVideoUrl": null,
+    "marketingTagList": [],
+    "memberId": "b2b-28513435109713a",
+    "memberTags": null,
+    "odUrl": "https://detail.1688.com/offer/671284121489.html?src=zhanwai&ptid=01770000000438a5de101a4f919e50c1",
+    "offerBangdan": null,
+    "offerCPVList": [],
+    "offerId": 671284121489,
+    "offerPromotionDTO": null,
+    "offerRepurchaseRate": "0.5752",
+    "offerTagMap": {
+      "一件代发": {
+        "id": null,
+        "tagName": "一件代发",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "754.7142857142858": {
+        "id": null,
+        "tagName": "搜索gmv",
+        "tagType1": "转化力",
+        "tagType2": "成交力",
+        "value": "754.7142857142858"
+      },
+      "HP": {
+        "id": "HP",
+        "tagName": "混批",
+        "tagType1": "offerTag",
+        "tagType2": null,
+        "value": "17026"
+      },
+      "镇店之宝": {
+        "id": null,
+        "tagName": "镇店之宝",
+        "tagType1": "商品力",
+        "tagType2": "爆品",
+        "value": ""
+      },
+      "实力商家": {
+        "id": null,
+        "tagName": "实力商家",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "七天包换": {
+        "id": null,
+        "tagName": "七天包换",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "混批": {
+        "id": null,
+        "tagName": "混批",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "免费赊账": {
+        "id": null,
+        "tagName": "免费赊账",
+        "tagType1": "金融",
+        "tagType2": "金融服务",
+        "value": null
+      },
+      "XCHF_MFSZ": {
+        "id": "XCHF_MFSZ",
+        "tagName": "先采后付",
+        "tagType1": "holidayTag",
+        "tagType2": null,
+        "value": "50000114"
+      },
+      "_48HFH": {
+        "id": "_48HFH",
+        "tagName": "48H发货",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:ssbxsfh"
+      },
+      "SLSJ": {
+        "id": "SLSJ",
+        "tagName": "实力商家",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "205185"
+      },
+      "_7TBH": {
+        "id": "_7TBH",
+        "tagName": "7天包换",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:qtbh"
+      },
+      "0.5833333333333334": {
+        "id": null,
+        "tagName": null,
+        "tagType1": "转化力",
+        "tagType2": "复购",
+        "value": "0.5833333333333334"
+      },
+      "跨境品": {
+        "id": null,
+        "tagName": "跨境品",
+        "tagType1": "商品力",
+        "tagType2": "跨境品",
+        "value": null
+      },
+      "深度验厂": {
+        "id": null,
+        "tagName": "深度验厂",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "金冠品": {
+        "id": null,
+        "tagName": "金冠品",
+        "tagType1": "商品力",
+        "tagType2": "爆品",
+        "value": ""
+      }
+    },
+    "price": "30.00",
+    "reqGrade": null,
+    "saleVolume": "2万+",
+    "secureMobilePhone": null,
+    "sellerUserId": null,
+    "shopRepurchaseRate": "0.5022",
+    "simpleSubject": "蒂悦奴实体飞机杯娃娃男用充气大屁股美臀馒头穴倒模成人用品男性",
+    "subject": "蒂悦奴实体飞机杯娃娃男用充气大屁股美臀馒头穴倒模成人用品男性",
+    "tpYear": 10,
+    "unit": "个"
+  },
+  {
+    "adType": "nature",
+    "cateId1": 130823000,
+    "cateId2": 126150002,
+    "cateId3": 126128004,
+    "company": "重庆鸿巨网络科技有限公司",
+    "coreWord": null,
+    "debugMark": "nature_o0_i7",
+    "imgUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01Udu2oJ1rhhzSaQYF7_!!3909905663-0-cib.jpg",
+    "imgUrlList": [
+      "https://cbu01.alicdn.com/img/ibank/O1CN01Udu2oJ1rhhzSaQYF7_!!3909905663-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN014DRYhC1rhhzTIsy9L_!!3909905663-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01PApSNO1rhhzT0mwlq_!!3909905663-0-cib.jpg"
+    ],
+    "itemId": "737770073958",
+    "itemType": null,
+    "leafCateId": 126128004,
+    "loginId": "惜春闺",
+    "mainVideoDuration": null,
+    "mainVideoUrl": null,
+    "marketingTagList": [
+      {
+        "activityId": "114871995864",
+        "activityName": null,
+        "couponId": "7523892563",
+        "couponName": "询单有礼券",
+        "couponType": 0,
+        "discountFeeYuan": 1.0,
+        "sellerUserId": null,
+        "startFeeYuan": 2.0,
+        "type": "xpyl"
+      },
+      {
+        "activityId": "1085951041",
+        "activityName": "店铺首单立减",
+        "couponId": null,
+        "couponName": null,
+        "couponType": null,
+        "discountFeeYuan": 5.0,
+        "sellerUserId": null,
+        "startFeeYuan": 8.0,
+        "type": "xrsdljj"
+      }
+    ],
+    "memberId": "b2b-3909905663486af",
+    "memberTags": null,
+    "odUrl": "https://detail.1688.com/offer/737770073958.html?src=zhanwai&ptid=01770000000438a5de101a4f919e50c1",
+    "offerBangdan": null,
+    "offerCPVList": [],
+    "offerId": 737770073958,
+    "offerPromotionDTO": null,
+    "offerRepurchaseRate": "0.1577",
+    "offerTagMap": {
+      "新客宝": {
+        "id": null,
+        "tagName": "新客宝",
+        "tagType1": "价格力",
+        "tagType2": "利益点",
+        "value": null
+      },
+      "一件代发": {
+        "id": null,
+        "tagName": "一件代发",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "HP": {
+        "id": "HP",
+        "tagName": "混批",
+        "tagType1": "offerTag",
+        "tagType2": null,
+        "value": "17026"
+      },
+      "镇店之宝": {
+        "id": null,
+        "tagName": "镇店之宝",
+        "tagType1": "商品力",
+        "tagType2": "爆品",
+        "value": ""
+      },
+      "实力商家": {
+        "id": null,
+        "tagName": "实力商家",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "七天包换": {
+        "id": null,
+        "tagName": "七天包换",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "运费险": {
+        "id": null,
+        "tagName": "运费险",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "0.9868421052631579": {
+        "id": null,
+        "tagName": "好评率",
+        "tagType1": "转化力",
+        "tagType2": "评价",
+        "value": "0.9868421052631579"
+      },
+      "混批": {
+        "id": null,
+        "tagName": "混批",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "CZBZ": {
+        "id": "CZBZ",
+        "tagName": "材质保障",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:czbz"
+      },
+      "免费赊账": {
+        "id": null,
+        "tagName": "免费赊账",
+        "tagType1": "金融",
+        "tagType2": "金融服务",
+        "value": null
+      },
+      "XCHF_MFSZ": {
+        "id": "XCHF_MFSZ",
+        "tagName": "先采后付",
+        "tagType1": "holidayTag",
+        "tagType2": null,
+        "value": "50000114"
+      },
+      "_48HFH": {
+        "id": "_48HFH",
+        "tagName": "48H发货",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:ssbxsfh"
+      },
+      "SLSJ": {
+        "id": "SLSJ",
+        "tagName": "实力商家",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "205185"
+      },
+      "_7TBH": {
+        "id": "_7TBH",
+        "tagName": "7天包换",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:qtbh"
+      },
+      "9392.46405291663": {
+        "id": null,
+        "tagName": "搜索gmv",
+        "tagType1": "转化力",
+        "tagType2": "成交力",
+        "value": "9392.46405291663"
+      },
+      "跨境品": {
+        "id": null,
+        "tagName": "跨境品",
+        "tagType1": "商品力",
+        "tagType2": "跨境品",
+        "value": null
+      },
+      "深度验厂": {
+        "id": null,
+        "tagName": "深度验厂",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "_7_24HXY": {
+        "id": "_7_24HXY",
+        "tagName": "7×24H响应",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "161664"
+      },
+      "金冠品": {
+        "id": null,
+        "tagName": "金冠品",
+        "tagType1": "商品力",
+        "tagType2": "爆品",
+        "value": ""
+      },
+      "深度验商": {
+        "id": null,
+        "tagName": "深度验商",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "0.15021459227467812": {
+        "id": null,
+        "tagName": null,
+        "tagType1": "转化力",
+        "tagType2": "复购",
+        "value": "0.15021459227467812"
+      }
+    },
+    "price": "27.00",
+    "reqGrade": null,
+    "saleVolume": "1万+",
+    "secureMobilePhone": null,
+    "sellerUserId": null,
+    "shopRepurchaseRate": "0.2153",
+    "simpleSubject": "男用凌音妹妹名器飞机杯阴臀倒模成人用品情趣用品性玩具阴道倒膜",
+    "subject": "男用凌音妹妹名器飞机杯阴臀倒模成人用品情趣用品性玩具阴道倒膜",
+    "tpYear": 8,
+    "unit": "件"
+  },
+  {
+    "adType": "nature",
+    "cateId1": 130823000,
+    "cateId2": 126150002,
+    "cateId3": 126128004,
+    "company": "温州怡色电子科技有限公司",
+    "coreWord": null,
+    "debugMark": "nature_o0_i8",
+    "imgUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01bf1qCd1xAAdYayIKm_!!2215686796402-0-cib.jpg",
+    "imgUrlList": [
+      "https://cbu01.alicdn.com/img/ibank/O1CN01bf1qCd1xAAdYayIKm_!!2215686796402-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01doSKVI1xAAdWRKHum_!!2215686796402-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01ud1L8j1xAAdRUPJWM_!!2215686796402-0-cib.jpg"
+    ],
+    "itemId": "728686697217",
+    "itemType": null,
+    "leafCateId": 126128004,
+    "loginId": "温州慕色电子商务有限公司",
+    "mainVideoDuration": null,
+    "mainVideoUrl": null,
+    "marketingTagList": [
+      {
+        "activityId": "1159969050",
+        "activityName": "店铺首单立减",
+        "couponId": null,
+        "couponName": null,
+        "couponType": null,
+        "discountFeeYuan": 2.0,
+        "sellerUserId": null,
+        "startFeeYuan": 2.0,
+        "type": "xrsdljj"
+      }
+    ],
+    "memberId": "b2b-22156867964028021d",
+    "memberTags": null,
+    "odUrl": "https://detail.1688.com/offer/728686697217.html?src=zhanwai&ptid=01770000000438a5de101a4f919e50c1",
+    "offerBangdan": null,
+    "offerCPVList": [],
+    "offerId": 728686697217,
+    "offerPromotionDTO": null,
+    "offerRepurchaseRate": "0.2542",
+    "offerTagMap": {
+      "3日达": {
+        "id": null,
+        "tagName": "3日达",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "0.21621621621621623": {
+        "id": null,
+        "tagName": null,
+        "tagType1": "转化力",
+        "tagType2": "复购",
+        "value": "0.21621621621621623"
+      },
+      "新客宝": {
+        "id": null,
+        "tagName": "新客宝",
+        "tagType1": "价格力",
+        "tagType2": "利益点",
+        "value": null
+      },
+      "一件代发": {
+        "id": null,
+        "tagName": "一件代发",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "HP": {
+        "id": "HP",
+        "tagName": "混批",
+        "tagType1": "offerTag",
+        "tagType2": null,
+        "value": "17026"
+      },
+      "实力商家": {
+        "id": null,
+        "tagName": "实力商家",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "24158.0": {
+        "id": null,
+        "tagName": "热搜商品",
+        "tagType1": "转化力",
+        "tagType2": "获客力",
+        "value": "24158.0"
+      },
+      "七天包换": {
+        "id": null,
+        "tagName": "七天包换",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "混批": {
+        "id": null,
+        "tagName": "混批",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "免费赊账": {
+        "id": null,
+        "tagName": "免费赊账",
+        "tagType1": "金融",
+        "tagType2": "金融服务",
+        "value": null
+      },
+      "XCHF_MFSZ": {
+        "id": "XCHF_MFSZ",
+        "tagName": "先采后付",
+        "tagType1": "holidayTag",
+        "tagType2": null,
+        "value": "50000114"
+      },
+      "2648.544681824155": {
+        "id": null,
+        "tagName": "搜索gmv",
+        "tagType1": "转化力",
+        "tagType2": "成交力",
+        "value": "2648.544681824155"
+      },
+      "_48HFH": {
+        "id": "_48HFH",
+        "tagName": "48H发货",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:ssbxsfh"
+      },
+      "SLSJ": {
+        "id": "SLSJ",
+        "tagName": "实力商家",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "205185"
+      },
+      "_7TBH": {
+        "id": "_7TBH",
+        "tagName": "7天包换",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:qtbh"
+      },
+      "深度验厂": {
+        "id": null,
+        "tagName": "深度验厂",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "_7_24HXY": {
+        "id": "_7_24HXY",
+        "tagName": "7×24H响应",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "161664"
+      },
+      "金冠品": {
+        "id": null,
+        "tagName": "金冠品",
+        "tagType1": "商品力",
+        "tagType2": "爆品",
+        "value": ""
+      },
+      "深度验商": {
+        "id": null,
+        "tagName": "深度验商",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      }
+    },
+    "price": "15.00",
+    "reqGrade": null,
+    "saleVolume": "1万+",
+    "secureMobilePhone": null,
+    "sellerUserId": null,
+    "shopRepurchaseRate": "0.1466",
+    "simpleSubject": "代发厂家直销男用飞机杯半身带胸双穴用品自慰器阴臀倒模屁股三交",
+    "subject": "代发厂家直销男用飞机杯半身带胸双穴用品自慰器阴臀倒模屁股三交",
+    "tpYear": 3,
+    "unit": "个"
+  },
+  {
+    "adType": "nature",
+    "cateId1": 130823000,
+    "cateId2": 126150002,
+    "cateId3": 126128004,
+    "company": "广州团趣贸易有限公司",
+    "coreWord": null,
+    "debugMark": "nature_o0_i9",
+    "imgUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01CvqFVi1RUiimwdDkc_!!2853632115-0-cib.jpg",
+    "imgUrlList": [
+      "https://cbu01.alicdn.com/img/ibank/O1CN01CvqFVi1RUiimwdDkc_!!2853632115-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01aiTB2o1RUihp8v4oU_!!2853632115-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01aVlpNS1RUiho7ISD6_!!2853632115-0-cib.jpg"
+    ],
+    "itemId": "872150634497",
+    "itemType": null,
+    "leafCateId": 126128004,
+    "loginId": "团趣批发",
+    "mainVideoDuration": null,
+    "mainVideoUrl": null,
+    "marketingTagList": [],
+    "memberId": "b2b-285363211548074",
+    "memberTags": null,
+    "odUrl": "https://detail.1688.com/offer/872150634497.html?src=zhanwai&ptid=01770000000438a5de101a4f919e50c1",
+    "offerBangdan": null,
+    "offerCPVList": [],
+    "offerId": 872150634497,
+    "offerPromotionDTO": null,
+    "offerRepurchaseRate": "0.4444",
+    "offerTagMap": {
+      "3日达": {
+        "id": null,
+        "tagName": "3日达",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "一件代发": {
+        "id": null,
+        "tagName": "一件代发",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "HP": {
+        "id": "HP",
+        "tagName": "混批",
+        "tagType1": "offerTag",
+        "tagType2": null,
+        "value": "17026"
+      },
+      "实力商家": {
+        "id": null,
+        "tagName": "实力商家",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "七天包换": {
+        "id": null,
+        "tagName": "七天包换",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "潜力品": {
+        "id": null,
+        "tagName": "潜力品",
+        "tagType1": "商品力",
+        "tagType2": "主流品",
+        "value": ""
+      },
+      "混批": {
+        "id": null,
+        "tagName": "混批",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "免费赊账": {
+        "id": null,
+        "tagName": "免费赊账",
+        "tagType1": "金融",
+        "tagType2": "金融服务",
+        "value": null
+      },
+      "XCHF_MFSZ": {
+        "id": "XCHF_MFSZ",
+        "tagName": "先采后付",
+        "tagType1": "holidayTag",
+        "tagType2": null,
+        "value": "50000114"
+      },
+      "少货必赔": {
+        "id": null,
+        "tagName": "少货必赔",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "_48HFH": {
+        "id": "_48HFH",
+        "tagName": "48H发货",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:ssbxsfh"
+      },
+      "SLSJ": {
+        "id": "SLSJ",
+        "tagName": "实力商家",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "205185"
+      },
+      "_7TBH": {
+        "id": "_7TBH",
+        "tagName": "7天包换",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:qtbh"
+      },
+      "跨境品": {
+        "id": null,
+        "tagName": "跨境品",
+        "tagType1": "商品力",
+        "tagType2": "跨境品",
+        "value": null
+      },
+      "破损包赔": {
+        "id": null,
+        "tagName": "破损包赔",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "深度验厂": {
+        "id": null,
+        "tagName": "深度验厂",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "_7_24HXY": {
+        "id": "_7_24HXY",
+        "tagName": "7×24H响应",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "161664"
+      },
+      "深度验商": {
+        "id": null,
+        "tagName": "深度验商",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      }
+    },
+    "price": "12.65",
+    "reqGrade": null,
+    "saleVolume": "100+",
+    "secureMobilePhone": null,
+    "sellerUserId": null,
+    "shopRepurchaseRate": "0.3764",
+    "simpleSubject": "久爱美良子名器倒模男用实体一字马半身娃娃双通道阴臀倒模飞机杯",
+    "subject": "久爱美良子名器倒模男用实体一字马半身娃娃双通道阴臀倒模飞机杯",
+    "tpYear": 10,
+    "unit": "个"
+  },
+  {
+    "adType": "nature",
+    "cateId1": 130823000,
+    "cateId2": 126150002,
+    "cateId3": 126128004,
+    "company": "河北咖实商贸有限公司",
+    "coreWord": null,
+    "debugMark": "nature_o0_i10",
+    "imgUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01MPqnK51XYjk7wHFTp_!!3108592936-0-cib.jpg",
+    "imgUrlList": [
+      "https://cbu01.alicdn.com/img/ibank/O1CN01MPqnK51XYjk7wHFTp_!!3108592936-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01T2kTNW1XYjtDowwOz_!!3108592936-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01vTAsUi1XYjjbJylLq_!!3108592936-0-cib.jpg"
+    ],
+    "itemId": "726250150033",
+    "itemType": null,
+    "leafCateId": 126128004,
+    "loginId": "河北咖实商贸有限公司",
+    "mainVideoDuration": null,
+    "mainVideoUrl": null,
+    "marketingTagList": [
+      {
+        "activityId": "75127941342",
+        "activityName": null,
+        "couponId": "6254541550",
+        "couponName": "询单有礼券",
+        "couponType": 0,
+        "discountFeeYuan": 5.0,
+        "sellerUserId": null,
+        "startFeeYuan": 200.0,
+        "type": "xpyl"
+      },
+      {
+        "activityId": "1225606016",
+        "activityName": "店铺首单立减",
+        "couponId": null,
+        "couponName": null,
+        "couponType": null,
+        "discountFeeYuan": 1.0,
+        "sellerUserId": null,
+        "startFeeYuan": 4.0,
+        "type": "xrsdljj"
+      }
+    ],
+    "memberId": "b2b-31085929369a0c3",
+    "memberTags": null,
+    "odUrl": "https://detail.1688.com/offer/726250150033.html?src=zhanwai&ptid=01770000000438a5de101a4f919e50c1",
+    "offerBangdan": null,
+    "offerCPVList": [],
+    "offerId": 726250150033,
+    "offerPromotionDTO": null,
+    "offerRepurchaseRate": "0.3333",
+    "offerTagMap": {
+      "3日达": {
+        "id": null,
+        "tagName": "3日达",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "新客宝": {
+        "id": null,
+        "tagName": "新客宝",
+        "tagType1": "价格力",
+        "tagType2": "利益点",
+        "value": null
+      },
+      "一件代发": {
+        "id": null,
+        "tagName": "一件代发",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "6672.0": {
+        "id": null,
+        "tagName": "热搜商品",
+        "tagType1": "转化力",
+        "tagType2": "获客力",
+        "value": "6672.0"
+      },
+      "HP": {
+        "id": "HP",
+        "tagName": "混批",
+        "tagType1": "offerTag",
+        "tagType2": null,
+        "value": "17026"
+      },
+      "0.3381294964028777": {
+        "id": null,
+        "tagName": null,
+        "tagType1": "转化力",
+        "tagType2": "复购",
+        "value": "0.3381294964028777"
+      },
+      "实力商家": {
+        "id": null,
+        "tagName": "实力商家",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "七天包换": {
+        "id": null,
+        "tagName": "七天包换",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "混批": {
+        "id": null,
+        "tagName": "混批",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "895.2295773083605": {
+        "id": null,
+        "tagName": "搜索gmv",
+        "tagType1": "转化力",
+        "tagType2": "成交力",
+        "value": "895.2295773083605"
+      },
+      "_48HFH": {
+        "id": "_48HFH",
+        "tagName": "48H发货",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:ssbxsfh"
+      },
+      "SLSJ": {
+        "id": "SLSJ",
+        "tagName": "实力商家",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "205185"
+      },
+      "_7TBH": {
+        "id": "_7TBH",
+        "tagName": "7天包换",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:qtbh"
+      },
+      "破损包赔": {
+        "id": null,
+        "tagName": "破损包赔",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "深度验厂": {
+        "id": null,
+        "tagName": "深度验厂",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "_7_24HXY": {
+        "id": "_7_24HXY",
+        "tagName": "7×24H响应",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "161664"
+      },
+      "金冠品": {
+        "id": null,
+        "tagName": "金冠品",
+        "tagType1": "商品力",
+        "tagType2": "爆品",
+        "value": ""
+      },
+      "深度验商": {
+        "id": null,
+        "tagName": "深度验商",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      }
+    },
+    "price": "12.60",
+    "reqGrade": null,
+    "saleVolume": "4000+",
+    "secureMobilePhone": null,
+    "sellerUserId": null,
+    "shopRepurchaseRate": "0.2958",
+    "simpleSubject": "久爱名器倒模美良子实体娃娃男用阴臀倒模成人情趣用品批发代发",
+    "subject": "久爱名器倒模美良子实体娃娃男用阴臀倒模成人情趣用品批发代发",
+    "tpYear": 9,
+    "unit": "件"
+  },
+  {
+    "adType": "nature",
+    "cateId1": 130823000,
+    "cateId2": 126150002,
+    "cateId3": 126128004,
+    "company": "探界科技(杭州)有限公司",
+    "coreWord": null,
+    "debugMark": "nature_o0_i11",
+    "imgUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01DrY8KX1b8s0ZMWuBW_!!2212928853421-0-cib.jpg",
+    "imgUrlList": [
+      "https://cbu01.alicdn.com/img/ibank/O1CN01DrY8KX1b8s0ZMWuBW_!!2212928853421-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01L0mNhi1b8s0aIvE1w_!!2212928853421-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01D6klnI1b8s0b1vLEe_!!2212928853421-0-cib.jpg"
+    ],
+    "itemId": "944321809463",
+    "itemType": null,
+    "leafCateId": 126128004,
+    "loginId": "tjkjalbb001",
+    "mainVideoDuration": null,
+    "mainVideoUrl": null,
+    "marketingTagList": [
+      {
+        "activityId": "1136304176",
+        "activityName": "店铺首单立减",
+        "couponId": null,
+        "couponName": null,
+        "couponType": null,
+        "discountFeeYuan": 1.0,
+        "sellerUserId": null,
+        "startFeeYuan": 4.0,
+        "type": "xrsdljj"
+      }
+    ],
+    "memberId": "b2b-22129288534213cddb",
+    "memberTags": null,
+    "odUrl": "https://detail.1688.com/offer/944321809463.html?src=zhanwai&ptid=01770000000438a5de101a4f919e50c1",
+    "offerBangdan": null,
+    "offerCPVList": [],
+    "offerId": 944321809463,
+    "offerPromotionDTO": null,
+    "offerRepurchaseRate": "0.3333",
+    "offerTagMap": {
+      "3日达": {
+        "id": null,
+        "tagName": "3日达",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "新客宝": {
+        "id": null,
+        "tagName": "新客宝",
+        "tagType1": "价格力",
+        "tagType2": "利益点",
+        "value": null
+      },
+      "3.1912": {
+        "id": null,
+        "tagName": "近期搜索飙升",
+        "tagType1": "转化力",
+        "tagType2": "获客力",
+        "value": "3.1912"
+      },
+      "一件代发": {
+        "id": null,
+        "tagName": "一件代发",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "实力商家": {
+        "id": null,
+        "tagName": "实力商家",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "_1688_YX": {
+        "id": "_1688_YX",
+        "tagName": "1688严选",
+        "tagType1": "tagCenter",
+        "tagType2": null,
+        "value": "4306497"
+      },
+      "七天包换": {
+        "id": null,
+        "tagName": "七天包换",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "严选": {
+        "id": null,
+        "tagName": "严选",
+        "tagType1": "商品力",
+        "tagType2": "严选",
+        "value": ""
+      },
+      "30天上新": {
+        "id": null,
+        "tagName": "30天上新",
+        "tagType1": "商品力",
+        "tagType2": "新品",
+        "value": null
+      },
+      "CZBZ": {
+        "id": "CZBZ",
+        "tagName": "材质保障",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:czbz"
+      },
+      "免费赊账": {
+        "id": null,
+        "tagName": "免费赊账",
+        "tagType1": "金融",
+        "tagType2": "金融服务",
+        "value": null
+      },
+      "XCHF_MFSZ": {
+        "id": "XCHF_MFSZ",
+        "tagName": "先采后付",
+        "tagType1": "holidayTag",
+        "tagType2": null,
+        "value": "50000114"
+      },
+      "_48HFH": {
+        "id": "_48HFH",
+        "tagName": "48H发货",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:ssbxsfh"
+      },
+      "SLSJ": {
+        "id": "SLSJ",
+        "tagName": "实力商家",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "205185"
+      },
+      "_7TBH": {
+        "id": "_7TBH",
+        "tagName": "7天包换",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:qtbh"
+      },
+      "797.0": {
+        "id": null,
+        "tagName": "搜索gmv",
+        "tagType1": "转化力",
+        "tagType2": "成交力",
+        "value": "797.0"
+      },
+      "超划算": {
+        "id": null,
+        "tagName": "超划算",
+        "tagType1": "价格力",
+        "tagType2": "超划算",
+        "value": null
+      },
+      "跨境品": {
+        "id": null,
+        "tagName": "跨境品",
+        "tagType1": "商品力",
+        "tagType2": "跨境品",
+        "value": null
+      },
+      "深度验厂": {
+        "id": null,
+        "tagName": "深度验厂",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "_7_24HXY": {
+        "id": "_7_24HXY",
+        "tagName": "7×24H响应",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "161664"
+      },
+      "金冠品": {
+        "id": null,
+        "tagName": "金冠品",
+        "tagType1": "商品力",
+        "tagType2": "爆品",
+        "value": ""
+      },
+      "深度验商": {
+        "id": null,
+        "tagName": "深度验商",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      }
+    },
+    "price": "199.0",
+    "reqGrade": null,
+    "saleVolume": "35",
+    "secureMobilePhone": null,
+    "sellerUserId": null,
+    "shopRepurchaseRate": "0.2942",
+    "simpleSubject": "【品牌正品】NPG名器证明15石川澪飞机杯男用情趣倒模真人熟女穴",
+    "subject": "【品牌正品】NPG名器证明15石川澪飞机杯男用情趣倒模真人熟女穴",
+    "tpYear": 4,
+    "unit": "个"
+  },
+  {
+    "adType": "nature",
+    "cateId1": 130823000,
+    "cateId2": 126150002,
+    "cateId3": 126128004,
+    "company": "淮安市麦可乐商贸有限公司",
+    "coreWord": null,
+    "debugMark": "nature_o0_i12",
+    "imgUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01xwL6cz2JZHu2WJ4Xo_!!2218332339435-0-cib.jpg",
+    "imgUrlList": [
+      "https://cbu01.alicdn.com/img/ibank/O1CN01xwL6cz2JZHu2WJ4Xo_!!2218332339435-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01wt7g1g2JZHu1FMsGf_!!2218332339435-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN011FNqRK2JZHtwwEMos_!!2218332339435-0-cib.jpg"
+    ],
+    "itemId": "865001988075",
+    "itemType": null,
+    "leafCateId": 126128004,
+    "loginId": "麦可乐商贸",
+    "mainVideoDuration": null,
+    "mainVideoUrl": null,
+    "marketingTagList": [
+      {
+        "activityId": "94425462823",
+        "activityName": null,
+        "couponId": "6971643331",
+        "couponName": "千元优惠",
+        "couponType": 0,
+        "discountFeeYuan": 10.0,
+        "sellerUserId": null,
+        "startFeeYuan": 1000.0,
+        "type": "ptdpyhq"
+      },
+      {
+        "activityId": "93306078926",
+        "activityName": null,
+        "couponId": "6927408089",
+        "couponName": "5千优惠券",
+        "couponType": 0,
+        "discountFeeYuan": 50.0,
+        "sellerUserId": null,
+        "startFeeYuan": 5000.0,
+        "type": "ptdpyhq"
+      },
+      {
+        "activityId": "93306159923",
+        "activityName": null,
+        "couponId": "6931458075",
+        "couponName": "两千优惠券",
+        "couponType": 0,
+        "discountFeeYuan": 15.0,
+        "sellerUserId": null,
+        "startFeeYuan": 2000.0,
+        "type": "ptdpyhq"
+      },
+      {
+        "activityId": "1157119132",
+        "activityName": "店铺首单立减",
+        "couponId": null,
+        "couponName": null,
+        "couponType": null,
+        "discountFeeYuan": 2.0,
+        "sellerUserId": null,
+        "startFeeYuan": 5.0,
+        "type": "xrsdljj"
+      }
+    ],
+    "memberId": "b2b-22183323394353a41b",
+    "memberTags": null,
+    "odUrl": "https://detail.1688.com/offer/865001988075.html?src=zhanwai&ptid=01770000000438a5de101a4f919e50c1",
+    "offerBangdan": null,
+    "offerCPVList": [],
+    "offerId": 865001988075,
+    "offerPromotionDTO": null,
+    "offerRepurchaseRate": "0.2547",
+    "offerTagMap": {
+      "3日达": {
+        "id": null,
+        "tagName": "3日达",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "新客宝": {
+        "id": null,
+        "tagName": "新客宝",
+        "tagType1": "价格力",
+        "tagType2": "利益点",
+        "value": null
+      },
+      "5361.0": {
+        "id": null,
+        "tagName": "热搜商品",
+        "tagType1": "转化力",
+        "tagType2": "获客力",
+        "value": "5361.0"
+      },
+      "2231.3461376134824": {
+        "id": null,
+        "tagName": "搜索gmv",
+        "tagType1": "转化力",
+        "tagType2": "成交力",
+        "value": "2231.3461376134824"
+      },
+      "HP": {
+        "id": "HP",
+        "tagName": "混批",
+        "tagType1": "offerTag",
+        "tagType2": null,
+        "value": "17026"
+      },
+      "实力商家": {
+        "id": null,
+        "tagName": "实力商家",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "七天包换": {
+        "id": null,
+        "tagName": "七天包换",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "潜力品": {
+        "id": null,
+        "tagName": "潜力品",
+        "tagType1": "商品力",
+        "tagType2": "主流品",
+        "value": ""
+      },
+      "混批": {
+        "id": null,
+        "tagName": "混批",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "CZBZ": {
+        "id": "CZBZ",
+        "tagName": "材质保障",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:czbz"
+      },
+      "免费赊账": {
+        "id": null,
+        "tagName": "免费赊账",
+        "tagType1": "金融",
+        "tagType2": "金融服务",
+        "value": null
+      },
+      "XCHF_MFSZ": {
+        "id": "XCHF_MFSZ",
+        "tagName": "先采后付",
+        "tagType1": "holidayTag",
+        "tagType2": null,
+        "value": "50000114"
+      },
+      "1.0": {
+        "id": null,
+        "tagName": "好评率",
+        "tagType1": "转化力",
+        "tagType2": "评价",
+        "value": "1.0"
+      },
+      "_48HFH": {
+        "id": "_48HFH",
+        "tagName": "48H发货",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:ssbxsfh"
+      },
+      "SLSJ": {
+        "id": "SLSJ",
+        "tagName": "实力商家",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "205185"
+      },
+      "_7TBH": {
+        "id": "_7TBH",
+        "tagName": "7天包换",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:qtbh"
+      },
+      "0.24260355029585798": {
+        "id": null,
+        "tagName": null,
+        "tagType1": "转化力",
+        "tagType2": "复购",
+        "value": "0.24260355029585798"
+      },
+      "深度验厂": {
+        "id": null,
+        "tagName": "深度验厂",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "_7_24HXY": {
+        "id": "_7_24HXY",
+        "tagName": "7×24H响应",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "161664"
+      },
+      "深度验商": {
+        "id": null,
+        "tagName": "深度验商",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      }
+    },
+    "price": "42.56",
+    "reqGrade": null,
+    "saleVolume": "700+",
+    "secureMobilePhone": null,
+    "sellerUserId": null,
+    "shopRepurchaseRate": "0.3491",
+    "simpleSubject": "谜姬肤感佳人半身细节带腿倒模男用自慰器成人性爱用品批发代发",
+    "subject": "谜姬肤感佳人半身细节带腿倒模男用自慰器成人性爱用品批发代发",
+    "tpYear": 1,
+    "unit": "个"
+  },
+  {
+    "adType": "nature",
+    "cateId1": 130823000,
+    "cateId2": 126150002,
+    "cateId3": 126128004,
+    "company": "郑州情趣尔电子科技有限公司",
+    "coreWord": null,
+    "debugMark": "nature_o0_i13",
+    "imgUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01ByAOWk25c7hB1NBQC_!!3253487546-0-cib.jpg",
+    "imgUrlList": [
+      "https://cbu01.alicdn.com/img/ibank/O1CN01ByAOWk25c7hB1NBQC_!!3253487546-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01CxoOTF25c7h8ir40R_!!3253487546-0-cib.jpg"
+    ],
+    "itemId": "826858102186",
+    "itemType": null,
+    "leafCateId": 126128004,
+    "loginId": "情趣尔科技675479386",
+    "mainVideoDuration": null,
+    "mainVideoUrl": null,
+    "marketingTagList": [
+      {
+        "activityId": "1123167046",
+        "activityName": "店铺首单立减",
+        "couponId": null,
+        "couponName": null,
+        "couponType": null,
+        "discountFeeYuan": 1.0,
+        "sellerUserId": null,
+        "startFeeYuan": 4.0,
+        "type": "xrsdljj"
+      }
+    ],
+    "memberId": "b2b-3253487546e2033",
+    "memberTags": null,
+    "odUrl": "https://detail.1688.com/offer/826858102186.html?src=zhanwai&ptid=01770000000438a5de101a4f919e50c1",
+    "offerBangdan": null,
+    "offerCPVList": [],
+    "offerId": 826858102186,
+    "offerPromotionDTO": null,
+    "offerRepurchaseRate": "0.1667",
+    "offerTagMap": {
+      "3日达": {
+        "id": null,
+        "tagName": "3日达",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "新客宝": {
+        "id": null,
+        "tagName": "新客宝",
+        "tagType1": "价格力",
+        "tagType2": "利益点",
+        "value": null
+      },
+      "一件代发": {
+        "id": null,
+        "tagName": "一件代发",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "HP": {
+        "id": "HP",
+        "tagName": "混批",
+        "tagType1": "offerTag",
+        "tagType2": null,
+        "value": "17026"
+      },
+      "实力商家": {
+        "id": null,
+        "tagName": "实力商家",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "七天包换": {
+        "id": null,
+        "tagName": "七天包换",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "潜力品": {
+        "id": null,
+        "tagName": "潜力品",
+        "tagType1": "商品力",
+        "tagType2": "主流品",
+        "value": ""
+      },
+      "混批": {
+        "id": null,
+        "tagName": "混批",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "CZBZ": {
+        "id": "CZBZ",
+        "tagName": "材质保障",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:czbz"
+      },
+      "免费赊账": {
+        "id": null,
+        "tagName": "免费赊账",
+        "tagType1": "金融",
+        "tagType2": "金融服务",
+        "value": null
+      },
+      "XCHF_MFSZ": {
+        "id": "XCHF_MFSZ",
+        "tagName": "先采后付",
+        "tagType1": "holidayTag",
+        "tagType2": null,
+        "value": "50000114"
+      },
+      "1.0": {
+        "id": null,
+        "tagName": "好评率",
+        "tagType1": "转化力",
+        "tagType2": "评价",
+        "value": "1.0"
+      },
+      "_48HFH": {
+        "id": "_48HFH",
+        "tagName": "48H发货",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:ssbxsfh"
+      },
+      "SLSJ": {
+        "id": "SLSJ",
+        "tagName": "实力商家",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "205185"
+      },
+      "_7TBH": {
+        "id": "_7TBH",
+        "tagName": "7天包换",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:qtbh"
+      },
+      "跨境品": {
+        "id": null,
+        "tagName": "跨境品",
+        "tagType1": "商品力",
+        "tagType2": "跨境品",
+        "value": null
+      },
+      "深度验厂": {
+        "id": null,
+        "tagName": "深度验厂",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "_7_24HXY": {
+        "id": "_7_24HXY",
+        "tagName": "7×24H响应",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "161664"
+      },
+      "深度验商": {
+        "id": null,
+        "tagName": "深度验商",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      }
+    },
+    "price": "15.00",
+    "reqGrade": null,
+    "saleVolume": "200+",
+    "secureMobilePhone": null,
+    "sellerUserId": null,
+    "shopRepurchaseRate": "0.3162",
+    "simpleSubject": "飞机杯倒模名器阴臀大屁股半身实体娃娃男用自慰器具情趣性爱用品",
+    "subject": "飞机杯倒模名器阴臀大屁股半身实体娃娃男用自慰器具情趣性爱用品",
+    "tpYear": 8,
+    "unit": "盒"
+  },
+  {
+    "adType": "nature",
+    "cateId1": 130823000,
+    "cateId2": 126150002,
+    "cateId3": 126128004,
+    "company": "东莞市原始人实业有限公司",
+    "coreWord": null,
+    "debugMark": "nature_o0_i14",
+    "imgUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01LagRG21EpFUxs8z1x_!!2303890400-0-cib.jpg",
+    "imgUrlList": [
+      "https://cbu01.alicdn.com/img/ibank/O1CN01LagRG21EpFUxs8z1x_!!2303890400-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01BukRFa1EpFUwaB0xF_!!2303890400-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN011Ff9Hn1EpFUwaEEXq_!!2303890400-0-cib.jpg"
+    ],
+    "itemId": "757732181810",
+    "itemType": null,
+    "leafCateId": 126128004,
+    "loginId": "原始人实业",
+    "mainVideoDuration": null,
+    "mainVideoUrl": null,
+    "marketingTagList": [],
+    "memberId": "b2b-2303890400",
+    "memberTags": null,
+    "odUrl": "https://detail.1688.com/offer/757732181810.html?src=zhanwai&ptid=01770000000438a5de101a4f919e50c1",
+    "offerBangdan": null,
+    "offerCPVList": [],
+    "offerId": 757732181810,
+    "offerPromotionDTO": null,
+    "offerRepurchaseRate": "0.1429",
+    "offerTagMap": {
+      "一件代发": {
+        "id": null,
+        "tagName": "一件代发",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "HP": {
+        "id": "HP",
+        "tagName": "混批",
+        "tagType1": "offerTag",
+        "tagType2": null,
+        "value": "17026"
+      },
+      "实力商家": {
+        "id": null,
+        "tagName": "实力商家",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "七天包换": {
+        "id": null,
+        "tagName": "七天包换",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "潜力品": {
+        "id": null,
+        "tagName": "潜力品",
+        "tagType1": "商品力",
+        "tagType2": "主流品",
+        "value": ""
+      },
+      "混批": {
+        "id": null,
+        "tagName": "混批",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "免费赊账": {
+        "id": null,
+        "tagName": "免费赊账",
+        "tagType1": "金融",
+        "tagType2": "金融服务",
+        "value": null
+      },
+      "XCHF_MFSZ": {
+        "id": "XCHF_MFSZ",
+        "tagName": "先采后付",
+        "tagType1": "holidayTag",
+        "tagType2": null,
+        "value": "50000114"
+      },
+      "1.0": {
+        "id": null,
+        "tagName": "好评率",
+        "tagType1": "转化力",
+        "tagType2": "评价",
+        "value": "1.0"
+      },
+      "_48HFH": {
+        "id": "_48HFH",
+        "tagName": "48H发货",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:ssbxsfh"
+      },
+      "SLSJ": {
+        "id": "SLSJ",
+        "tagName": "实力商家",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "205185"
+      },
+      "_7TBH": {
+        "id": "_7TBH",
+        "tagName": "7天包换",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:qtbh"
+      },
+      "跨境品": {
+        "id": null,
+        "tagName": "跨境品",
+        "tagType1": "商品力",
+        "tagType2": "跨境品",
+        "value": null
+      },
+      "深度验厂": {
+        "id": null,
+        "tagName": "深度验厂",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "633.3000000000001": {
+        "id": null,
+        "tagName": "搜索gmv",
+        "tagType1": "转化力",
+        "tagType2": "成交力",
+        "value": "633.3000000000001"
+      }
+    },
+    "price": "22.00",
+    "reqGrade": null,
+    "saleVolume": "1000+",
+    "secureMobilePhone": null,
+    "sellerUserId": null,
+    "shopRepurchaseRate": "0.3258",
+    "simpleSubject": "闰趣吮吸发音屁股倒模名器实体娃娃男用情趣成人性用品飞机杯倒膜",
+    "subject": "闰趣吮吸发音屁股倒模名器实体娃娃男用情趣成人性用品飞机杯倒膜",
+    "tpYear": 11,
+    "unit": "件"
+  },
+  {
+    "adType": "nature",
+    "cateId1": 130823000,
+    "cateId2": 126150002,
+    "cateId3": 126128004,
+    "company": "厦门福尧丰商贸有限公司",
+    "coreWord": null,
+    "debugMark": "nature_o0_i15",
+    "imgUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01hOxZay2I8R5w37a6Q_!!2218423129241-0-cib.jpg",
+    "imgUrlList": [
+      "https://cbu01.alicdn.com/img/ibank/O1CN01hOxZay2I8R5w37a6Q_!!2218423129241-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01pe0Ogp2I8R5z7uVWp_!!2218423129241-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01RduDKN2I8R5xbwDga_!!2218423129241-0-cib.jpg"
+    ],
+    "itemId": "917429461985",
+    "itemType": null,
+    "leafCateId": 126128004,
+    "loginId": "福尧丰情趣供应链",
+    "mainVideoDuration": null,
+    "mainVideoUrl": null,
+    "marketingTagList": [
+      {
+        "activityId": "1156731030",
+        "activityName": "店铺首单立减",
+        "couponId": null,
+        "couponName": null,
+        "couponType": null,
+        "discountFeeYuan": 3.0,
+        "sellerUserId": null,
+        "startFeeYuan": 6.0,
+        "type": "xrsdljj"
+      }
+    ],
+    "memberId": "b2b-2218423129241df7be",
+    "memberTags": null,
+    "odUrl": "https://detail.1688.com/offer/917429461985.html?src=zhanwai&ptid=01770000000438a5de101a4f919e50c1",
+    "offerBangdan": null,
+    "offerCPVList": [],
+    "offerId": 917429461985,
+    "offerPromotionDTO": null,
+    "offerRepurchaseRate": "0.0741",
+    "offerTagMap": {
+      "3日达": {
+        "id": null,
+        "tagName": "3日达",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "新客宝": {
+        "id": null,
+        "tagName": "新客宝",
+        "tagType1": "价格力",
+        "tagType2": "利益点",
+        "value": null
+      },
+      "一件代发": {
+        "id": null,
+        "tagName": "一件代发",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "HP": {
+        "id": "HP",
+        "tagName": "混批",
+        "tagType1": "offerTag",
+        "tagType2": null,
+        "value": "17026"
+      },
+      "实力商家": {
+        "id": null,
+        "tagName": "实力商家",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "416.09833333333324": {
+        "id": null,
+        "tagName": "搜索gmv",
+        "tagType1": "转化力",
+        "tagType2": "成交力",
+        "value": "416.09833333333324"
+      },
+      "七天包换": {
+        "id": null,
+        "tagName": "七天包换",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "运费险": {
+        "id": null,
+        "tagName": "运费险",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "混批": {
+        "id": null,
+        "tagName": "混批",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "CZBZ": {
+        "id": "CZBZ",
+        "tagName": "材质保障",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:czbz"
+      },
+      "比同款低29%": {
+        "id": null,
+        "tagName": "比同款低29%",
+        "tagType1": "价格力",
+        "tagType2": "利益点",
+        "value": null
+      },
+      "_48HFH": {
+        "id": "_48HFH",
+        "tagName": "48H发货",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:ssbxsfh"
+      },
+      "比下游低64%": {
+        "id": null,
+        "tagName": "比下游低64%",
+        "tagType1": "价格力",
+        "tagType2": "利益点",
+        "value": null
+      },
+      "SLSJ": {
+        "id": "SLSJ",
+        "tagName": "实力商家",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "205185"
+      },
+      "_7TBH": {
+        "id": "_7TBH",
+        "tagName": "7天包换",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:qtbh"
+      },
+      "3650.0": {
+        "id": null,
+        "tagName": "热搜商品",
+        "tagType1": "转化力",
+        "tagType2": "获客力",
+        "value": "3650.0"
+      },
+      "跨境品": {
+        "id": null,
+        "tagName": "跨境品",
+        "tagType1": "商品力",
+        "tagType2": "跨境品",
+        "value": null
+      },
+      "全网低价": {
+        "id": null,
+        "tagName": "全网低价",
+        "tagType1": "价格力",
+        "tagType2": "利益点",
+        "value": null
+      },
+      "深度验厂": {
+        "id": null,
+        "tagName": "深度验厂",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "_7_24HXY": {
+        "id": "_7_24HXY",
+        "tagName": "7×24H响应",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "161664"
+      },
+      "7.767": {
+        "id": null,
+        "tagName": "近期搜索飙升",
+        "tagType1": "转化力",
+        "tagType2": "获客力",
+        "value": "7.767"
+      },
+      "金冠品": {
+        "id": null,
+        "tagName": "金冠品",
+        "tagType1": "商品力",
+        "tagType2": "爆品",
+        "value": ""
+      },
+      "深度验商": {
+        "id": null,
+        "tagName": "深度验商",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      }
+    },
+    "price": "12.60",
+    "reqGrade": null,
+    "saleVolume": "100+",
+    "secureMobilePhone": null,
+    "sellerUserId": null,
+    "shopRepurchaseRate": "0.1278",
+    "simpleSubject": "魅爱空间水濑琉璃星野明纱动漫飞机杯名器倒模成人用品代发",
+    "subject": "魅爱空间水濑琉璃星野明纱动漫飞机杯名器倒模成人用品代发",
+    "tpYear": 1,
+    "unit": "个"
+  },
+  {
+    "adType": "nature",
+    "cateId1": 130823000,
+    "cateId2": 126150002,
+    "cateId3": 126128004,
+    "company": "衢州市爱邦商贸有限公司",
+    "coreWord": null,
+    "debugMark": "nature_o0_i16",
+    "imgUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01F5s3dD2M3Ai77XNKN_!!2928129771-0-cib.jpg",
+    "imgUrlList": [
+      "https://cbu01.alicdn.com/img/ibank/O1CN01F5s3dD2M3Ai77XNKN_!!2928129771-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN013RdZe52M3Ai95SJMd_!!2928129771-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN017xbonP2M3AhxJc9VL_!!2928129771-0-cib.jpg"
+    ],
+    "itemId": "673683707526",
+    "itemType": null,
+    "leafCateId": 126128004,
+    "loginId": "衢州市爱邦商贸有限公司",
+    "mainVideoDuration": null,
+    "mainVideoUrl": null,
+    "marketingTagList": [
+      {
+        "activityId": "1189140008",
+        "activityName": "店铺首单立减",
+        "couponId": null,
+        "couponName": null,
+        "couponType": null,
+        "discountFeeYuan": 2.0,
+        "sellerUserId": null,
+        "startFeeYuan": 2.0,
+        "type": "xrsdljj"
+      }
+    ],
+    "memberId": "b2b-2928129771b487f",
+    "memberTags": null,
+    "odUrl": "https://detail.1688.com/offer/673683707526.html?src=zhanwai&ptid=01770000000438a5de101a4f919e50c1",
+    "offerBangdan": null,
+    "offerCPVList": [],
+    "offerId": 673683707526,
+    "offerPromotionDTO": null,
+    "offerRepurchaseRate": "0.1538",
+    "offerTagMap": {
+      "3日达": {
+        "id": null,
+        "tagName": "3日达",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "新客宝": {
+        "id": null,
+        "tagName": "新客宝",
+        "tagType1": "价格力",
+        "tagType2": "利益点",
+        "value": null
+      },
+      "一件代发": {
+        "id": null,
+        "tagName": "一件代发",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "HP": {
+        "id": "HP",
+        "tagName": "混批",
+        "tagType1": "offerTag",
+        "tagType2": null,
+        "value": "17026"
+      },
+      "实力商家": {
+        "id": null,
+        "tagName": "实力商家",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "七天包换": {
+        "id": null,
+        "tagName": "七天包换",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "潜力品": {
+        "id": null,
+        "tagName": "潜力品",
+        "tagType1": "商品力",
+        "tagType2": "主流品",
+        "value": ""
+      },
+      "混批": {
+        "id": null,
+        "tagName": "混批",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "CZBZ": {
+        "id": "CZBZ",
+        "tagName": "材质保障",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:czbz"
+      },
+      "A库": {
+        "id": null,
+        "tagName": "A库",
+        "tagType1": "商品力",
+        "tagType2": "趋势品",
+        "value": null
+      },
+      "1.0": {
+        "id": null,
+        "tagName": "好评率",
+        "tagType1": "转化力",
+        "tagType2": "评价",
+        "value": "1.0"
+      },
+      "_48HFH": {
+        "id": "_48HFH",
+        "tagName": "48H发货",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:ssbxsfh"
+      },
+      "SLSJ": {
+        "id": "SLSJ",
+        "tagName": "实力商家",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "205185"
+      },
+      "_7TBH": {
+        "id": "_7TBH",
+        "tagName": "7天包换",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:qtbh"
+      },
+      "跨境品": {
+        "id": null,
+        "tagName": "跨境品",
+        "tagType1": "商品力",
+        "tagType2": "跨境品",
+        "value": null
+      },
+      "深度验厂": {
+        "id": null,
+        "tagName": "深度验厂",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "深度验商": {
+        "id": null,
+        "tagName": "深度验商",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      }
+    },
+    "price": "35.00",
+    "reqGrade": null,
+    "saleVolume": "400+",
+    "secureMobilePhone": null,
+    "sellerUserId": null,
+    "shopRepurchaseRate": "0.3094",
+    "simpleSubject": "性玩具阴臀倒模臀成人用品男性飞机杯名器男用自慰器硅胶充气娃娃",
+    "subject": "性玩具阴臀倒模臀成人用品男性飞机杯名器男用自慰器硅胶充气娃娃",
+    "tpYear": 10,
+    "unit": "个"
+  },
+  {
+    "adType": "nature",
+    "cateId1": 130823000,
+    "cateId2": 126150002,
+    "cateId3": 126128004,
+    "company": "郑州熊伽商贸有限公司",
+    "coreWord": null,
+    "debugMark": "nature_o0_i17",
+    "imgUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01lPl0iD23qf7QNoXOG_!!3329337307-0-cib.jpg",
+    "imgUrlList": [
+      "https://cbu01.alicdn.com/img/ibank/O1CN01lPl0iD23qf7QNoXOG_!!3329337307-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01JWswkj23qf7PxCEgx_!!3329337307-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01hxx2XZ23qf7QGm20S_!!3329337307-0-cib.jpg"
+    ],
+    "itemId": "645658606316",
+    "itemType": null,
+    "leafCateId": 126128004,
+    "loginId": "zzxjsm",
+    "mainVideoDuration": null,
+    "mainVideoUrl": null,
+    "marketingTagList": [
+      {
+        "activityId": "112969611050",
+        "activityName": null,
+        "couponId": "7474662610",
+        "couponName": "新客券",
+        "couponType": 0,
+        "discountFeeYuan": 2.0,
+        "sellerUserId": null,
+        "startFeeYuan": 10.0,
+        "type": "ptdpyhq"
+      },
+      {
+        "activityId": "112969305101",
+        "activityName": null,
+        "couponId": "7477182658",
+        "couponName": "复购券",
+        "couponType": 0,
+        "discountFeeYuan": 3.0,
+        "sellerUserId": null,
+        "startFeeYuan": 300.0,
+        "type": "ptdpyhq"
+      },
+      {
+        "activityId": "112969206409",
+        "activityName": null,
+        "couponId": "7474806625",
+        "couponName": "满500-5",
+        "couponType": 0,
+        "discountFeeYuan": 5.0,
+        "sellerUserId": null,
+        "startFeeYuan": 500.0,
+        "type": "ptdpyhq"
+      },
+      {
+        "activityId": "1092456197",
+        "activityName": "店铺首单立减",
+        "couponId": null,
+        "couponName": null,
+        "couponType": null,
+        "discountFeeYuan": 3.0,
+        "sellerUserId": null,
+        "startFeeYuan": 3.0,
+        "type": "xrsdljj"
+      }
+    ],
+    "memberId": "b2b-332933730774b2d",
+    "memberTags": null,
+    "odUrl": "https://detail.1688.com/offer/645658606316.html?src=zhanwai&ptid=01770000000438a5de101a4f919e50c1",
+    "offerBangdan": null,
+    "offerCPVList": [],
+    "offerId": 645658606316,
+    "offerPromotionDTO": null,
+    "offerRepurchaseRate": "0.1579",
+    "offerTagMap": {
+      "3日达": {
+        "id": null,
+        "tagName": "3日达",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "新客宝": {
+        "id": null,
+        "tagName": "新客宝",
+        "tagType1": "价格力",
+        "tagType2": "利益点",
+        "value": null
+      },
+      "一件代发": {
+        "id": null,
+        "tagName": "一件代发",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "HP": {
+        "id": "HP",
+        "tagName": "混批",
+        "tagType1": "offerTag",
+        "tagType2": null,
+        "value": "17026"
+      },
+      "实力商家": {
+        "id": null,
+        "tagName": "实力商家",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "七天包换": {
+        "id": null,
+        "tagName": "七天包换",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "混批": {
+        "id": null,
+        "tagName": "混批",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "CZBZ": {
+        "id": "CZBZ",
+        "tagName": "材质保障",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:czbz"
+      },
+      "免费赊账": {
+        "id": null,
+        "tagName": "免费赊账",
+        "tagType1": "金融",
+        "tagType2": "金融服务",
+        "value": null
+      },
+      "XCHF_MFSZ": {
+        "id": "XCHF_MFSZ",
+        "tagName": "先采后付",
+        "tagType1": "holidayTag",
+        "tagType2": null,
+        "value": "50000114"
+      },
+      "1.0": {
+        "id": null,
+        "tagName": "好评率",
+        "tagType1": "转化力",
+        "tagType2": "评价",
+        "value": "1.0"
+      },
+      "_48HFH": {
+        "id": "_48HFH",
+        "tagName": "48H发货",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:ssbxsfh"
+      },
+      "SLSJ": {
+        "id": "SLSJ",
+        "tagName": "实力商家",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "205185"
+      },
+      "_7TBH": {
+        "id": "_7TBH",
+        "tagName": "7天包换",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:qtbh"
+      },
+      "跨境品": {
+        "id": null,
+        "tagName": "跨境品",
+        "tagType1": "商品力",
+        "tagType2": "跨境品",
+        "value": null
+      },
+      "破损包赔": {
+        "id": null,
+        "tagName": "破损包赔",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "深度验厂": {
+        "id": null,
+        "tagName": "深度验厂",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "_7_24HXY": {
+        "id": "_7_24HXY",
+        "tagName": "7×24H响应",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "161664"
+      },
+      "深度验商": {
+        "id": null,
+        "tagName": "深度验商",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      }
+    },
+    "price": "7.50",
+    "reqGrade": null,
+    "saleVolume": "1000+",
+    "secureMobilePhone": null,
+    "sellerUserId": null,
+    "shopRepurchaseRate": "0.4272",
+    "simpleSubject": "春之苑高校女子男用自慰器小飞机杯软胶名器倒模成人情趣用品批发",
+    "subject": "春之苑高校女子男用自慰器小飞机杯软胶名器倒模成人情趣用品批发",
+    "tpYear": 8,
+    "unit": "个"
+  },
+  {
+    "adType": "nature",
+    "cateId1": 130823000,
+    "cateId2": 126150002,
+    "cateId3": 126128004,
+    "company": "山东挚诺情趣用品有限公司",
+    "coreWord": null,
+    "debugMark": "nature_o0_i18",
+    "imgUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01PSTELj25R82WMf4c1_!!2925097522-0-cib.jpg",
+    "imgUrlList": [
+      "https://cbu01.alicdn.com/img/ibank/O1CN01PSTELj25R82WMf4c1_!!2925097522-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01RUWlQf25R82RBTS6G_!!2925097522-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01IYxXC325R7xmsnu15_!!2925097522-0-cib.jpg"
+    ],
+    "itemId": "626643139268",
+    "itemType": null,
+    "leafCateId": 126128004,
+    "loginId": "山东挚诺潮品",
+    "mainVideoDuration": null,
+    "mainVideoUrl": null,
+    "marketingTagList": [],
+    "memberId": "b2b-2925097522fecaf",
+    "memberTags": null,
+    "odUrl": "https://detail.1688.com/offer/626643139268.html?src=zhanwai&ptid=01770000000438a5de101a4f919e50c1",
+    "offerBangdan": null,
+    "offerCPVList": [],
+    "offerId": 626643139268,
+    "offerPromotionDTO": null,
+    "offerRepurchaseRate": "0.1944",
+    "offerTagMap": {
+      "YJBY": {
+        "id": "YJBY",
+        "tagName": "一件包邮",
+        "tagType1": "tagCenter",
+        "tagType2": null,
+        "value": "4360897"
+      },
+      "3日达": {
+        "id": null,
+        "tagName": "3日达",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "一件代发": {
+        "id": null,
+        "tagName": "一件代发",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "HP": {
+        "id": "HP",
+        "tagName": "混批",
+        "tagType1": "offerTag",
+        "tagType2": null,
+        "value": "17026"
+      },
+      "实力商家": {
+        "id": null,
+        "tagName": "实力商家",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "_1688_YX": {
+        "id": "_1688_YX",
+        "tagName": "1688严选",
+        "tagType1": "tagCenter",
+        "tagType2": null,
+        "value": "4306497"
+      },
+      "七天包换": {
+        "id": null,
+        "tagName": "七天包换",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "严选": {
+        "id": null,
+        "tagName": "严选",
+        "tagType1": "商品力",
+        "tagType2": "严选",
+        "value": ""
+      },
+      "潜力品": {
+        "id": null,
+        "tagName": "潜力品",
+        "tagType1": "商品力",
+        "tagType2": "主流品",
+        "value": ""
+      },
+      "混批": {
+        "id": null,
+        "tagName": "混批",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "免费赊账": {
+        "id": null,
+        "tagName": "免费赊账",
+        "tagType1": "金融",
+        "tagType2": "金融服务",
+        "value": null
+      },
+      "XCHF_MFSZ": {
+        "id": "XCHF_MFSZ",
+        "tagName": "先采后付",
+        "tagType1": "holidayTag",
+        "tagType2": null,
+        "value": "50000114"
+      },
+      "少货必赔": {
+        "id": null,
+        "tagName": "少货必赔",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "_48HFH": {
+        "id": "_48HFH",
+        "tagName": "48H发货",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:ssbxsfh"
+      },
+      "SLSJ": {
+        "id": "SLSJ",
+        "tagName": "实力商家",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "205185"
+      },
+      "_7TBH": {
+        "id": "_7TBH",
+        "tagName": "7天包换",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:qtbh"
+      },
+      "超划算": {
+        "id": null,
+        "tagName": "超划算",
+        "tagType1": "价格力",
+        "tagType2": "超划算",
+        "value": null
+      },
+      "跨境品": {
+        "id": null,
+        "tagName": "跨境品",
+        "tagType1": "商品力",
+        "tagType2": "跨境品",
+        "value": null
+      },
+      "破损包赔": {
+        "id": null,
+        "tagName": "破损包赔",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "深度验厂": {
+        "id": null,
+        "tagName": "深度验厂",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "_7_24HXY": {
+        "id": "_7_24HXY",
+        "tagName": "7×24H响应",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "161664"
+      },
+      "深度验商": {
+        "id": null,
+        "tagName": "深度验商",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      }
+    },
+    "price": "5.90",
+    "reqGrade": null,
+    "saleVolume": "1万+",
+    "secureMobilePhone": null,
+    "sellerUserId": null,
+    "shopRepurchaseRate": "0.2598",
+    "simpleSubject": "男用自慰器名器倒模飞机杯男用阴臀倒模大屁股成人用品无人售货机",
+    "subject": "男用自慰器名器倒模飞机杯男用阴臀倒模大屁股成人用品无人售货机",
+    "tpYear": 9,
+    "unit": "个"
+  },
+  {
+    "adType": "nature",
+    "cateId1": 130823000,
+    "cateId2": 126150002,
+    "cateId3": 126128004,
+    "company": "石家庄爱之乐商贸有限公司",
+    "coreWord": null,
+    "debugMark": "nature_o0_i19",
+    "imgUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01kXsVCm22fppei3hjD_!!3363587148-0-cib.jpg",
+    "imgUrlList": [
+      "https://cbu01.alicdn.com/img/ibank/O1CN01kXsVCm22fppei3hjD_!!3363587148-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/21376920273_1989281371.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01BkOqZU22fpphkjTR0_!!3363587148-0-cib.jpg"
+    ],
+    "itemId": "628337893912",
+    "itemType": null,
+    "leafCateId": 126128004,
+    "loginId": "石家庄爱之乐商贸有限公司",
+    "mainVideoDuration": null,
+    "mainVideoUrl": null,
+    "marketingTagList": [
+      {
+        "activityId": "110215431565",
+        "activityName": null,
+        "couponId": "7396992617",
+        "couponName": "店铺优惠券",
+        "couponType": 0,
+        "discountFeeYuan": 1.0,
+        "sellerUserId": null,
+        "startFeeYuan": 99.0,
+        "type": "ptdpyhq"
+      },
+      {
+        "activityId": "110215872216",
+        "activityName": null,
+        "couponId": "7394463636",
+        "couponName": "店铺优惠券",
+        "couponType": 0,
+        "discountFeeYuan": 10.0,
+        "sellerUserId": null,
+        "startFeeYuan": 10000.0,
+        "type": "ptdpyhq"
+      },
+      {
+        "activityId": "110216160023",
+        "activityName": null,
+        "couponId": "7396326589",
+        "couponName": "店铺优惠券",
+        "couponType": 0,
+        "discountFeeYuan": 5.0,
+        "sellerUserId": null,
+        "startFeeYuan": 2000.0,
+        "type": "ptdpyhq"
+      }
+    ],
+    "memberId": "b2b-3363587148bf37f",
+    "memberTags": null,
+    "odUrl": "https://detail.1688.com/offer/628337893912.html?src=zhanwai&ptid=01770000000438a5de101a4f919e50c1",
+    "offerBangdan": null,
+    "offerCPVList": [],
+    "offerId": 628337893912,
+    "offerPromotionDTO": null,
+    "offerRepurchaseRate": "0.2222",
+    "offerTagMap": {
+      "3日达": {
+        "id": null,
+        "tagName": "3日达",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "一件代发": {
+        "id": null,
+        "tagName": "一件代发",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "HP": {
+        "id": "HP",
+        "tagName": "混批",
+        "tagType1": "offerTag",
+        "tagType2": null,
+        "value": "17026"
+      },
+      "实力商家": {
+        "id": null,
+        "tagName": "实力商家",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "七天包换": {
+        "id": null,
+        "tagName": "七天包换",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "潜力品": {
+        "id": null,
+        "tagName": "潜力品",
+        "tagType1": "商品力",
+        "tagType2": "主流品",
+        "value": ""
+      },
+      "混批": {
+        "id": null,
+        "tagName": "混批",
+        "tagType1": "服务力",
+        "tagType2": "商品服务",
+        "value": null
+      },
+      "免费赊账": {
+        "id": null,
+        "tagName": "免费赊账",
+        "tagType1": "金融",
+        "tagType2": "金融服务",
+        "value": null
+      },
+      "XCHF_MFSZ": {
+        "id": "XCHF_MFSZ",
+        "tagName": "先采后付",
+        "tagType1": "holidayTag",
+        "tagType2": null,
+        "value": "50000114"
+      },
+      "1.0": {
+        "id": null,
+        "tagName": "好评率",
+        "tagType1": "转化力",
+        "tagType2": "评价",
+        "value": "1.0"
+      },
+      "SLSJ": {
+        "id": "SLSJ",
+        "tagName": "实力商家",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "205185"
+      },
+      "_7TBH": {
+        "id": "_7TBH",
+        "tagName": "7天包换",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:qtbh"
+      },
+      "跨境品": {
+        "id": null,
+        "tagName": "跨境品",
+        "tagType1": "商品力",
+        "tagType2": "跨境品",
+        "value": null
+      },
+      "深度验厂": {
+        "id": null,
+        "tagName": "深度验厂",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      },
+      "_7_24HXY": {
+        "id": "_7_24HXY",
+        "tagName": "7×24H响应",
+        "tagType1": "memberTag",
+        "tagType2": null,
+        "value": "161664"
+      },
+      "_24HFH": {
+        "id": "_24HFH",
+        "tagName": "24H发货",
+        "tagType1": "extendProperties",
+        "tagType2": null,
+        "value": "buyerProtection:essxsfh"
+      },
+      "深度验商": {
+        "id": null,
+        "tagName": "深度验商",
+        "tagType1": "服务力",
+        "tagType2": "商家",
+        "value": null
+      }
+    },
+    "price": "6.00",
+    "reqGrade": null,
+    "saleVolume": "3万+",
+    "secureMobilePhone": null,
+    "sellerUserId": null,
+    "shopRepurchaseRate": "0.4455",
+    "simpleSubject": "男用名器小半身飞机杯手动男用自慰器阴臀倒模成人无人售货大屁股",
+    "subject": "男用名器小半身飞机杯手动男用自慰器阴臀倒模成人无人售货大屁股",
+    "tpYear": 8,
+    "unit": "盒"
+  }
+]
