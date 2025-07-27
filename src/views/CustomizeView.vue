@@ -3,20 +3,20 @@
     <!-- 像素化背景 -->
     <div class="pixel-bg"></div>
     <div class="pixel-overlay"></div>
-    
+
     <!-- 左侧按钮组 -->
     <div class="left-buttons">
       <button @click="goToHome" class="left-btn">返回首页</button>
       <button @click="openContactModal" class="left-btn">联系客服</button>
     </div>
-    
+
     <!-- 主要内容容器 -->
     <div class="main-content">
       <h1 class="pixel-title">私人定制</h1>
       <div class="pixel-text" style="text-align: center; font-size: 1.3rem; margin-bottom: 40px;">
         ▼ 专属于你的独特体验 ▼
       </div>
-      
+
       <!-- 定制步骤指示器 -->
       <div class="step-indicator">
         <div class="step" :class="{ active: currentStep >= 1, completed: currentStep > 1 }">
@@ -34,18 +34,13 @@
           <div class="step-title">确认订单</div>
         </div>
       </div>
-      
+
       <!-- 步骤1: 选择类型 -->
       <div v-if="currentStep === 1" class="step-content">
         <h2 class="step-heading">选择定制类型</h2>
         <div class="customize-grid">
-          <div 
-            v-for="category in categories" 
-            :key="category.id"
-            class="customize-card"
-            :class="{ selected: selectedCategory === category.id }"
-            @click="selectCategory(category.id)"
-          >
+          <div v-for="category in categories" :key="category.id" class="customize-card"
+            :class="{ selected: selectedCategory === category.id }" @click="selectCategory(category.id)">
             <div class="customize-image-container">
               <img :src="category.image" :alt="category.name" class="customize-image">
               <div class="customize-image-overlay"></div>
@@ -56,16 +51,12 @@
           </div>
         </div>
         <div class="step-actions">
-          <button 
-            class="pixel-btn" 
-            :disabled="!selectedCategory"
-            @click="nextStep"
-          >
+          <button class="pixel-btn" :disabled="!selectedCategory" @click="nextStep">
             下一步
           </button>
         </div>
       </div>
-      
+
       <!-- 步骤2: 个性配置 -->
       <div v-if="currentStep === 2" class="step-content">
         <h2 class="step-heading">个性化配置</h2>
@@ -75,35 +66,25 @@
             <div class="form-group">
               <label class="form-label">材质选择</label>
               <div class="option-grid">
-                <div 
-                  v-for="material in materials" 
-                  :key="material.id"
-                  class="option-card"
-                  :class="{ selected: selectedMaterial === material.id }"
-                  @click="selectedMaterial = material.id"
-                >
+                <div v-for="material in materials" :key="material.id" class="option-card"
+                  :class="{ selected: selectedMaterial === material.id }" @click="selectedMaterial = material.id">
                   <div class="option-name">{{ material.name }}</div>
                   <div class="option-price">+¥{{ material.price }}</div>
                 </div>
               </div>
             </div>
-            
+
             <div class="form-group">
               <label class="form-label">颜色选择</label>
               <div class="color-grid">
-                <div 
-                  v-for="color in colors" 
-                  :key="color.id"
-                  class="color-option"
-                  :class="{ selected: selectedColor === color.id }"
-                  :style="{ backgroundColor: color.value }"
-                  @click="selectedColor = color.id"
-                >
+                <div v-for="color in colors" :key="color.id" class="color-option"
+                  :class="{ selected: selectedColor === color.id }" :style="{ backgroundColor: color.value }"
+                  @click="selectedColor = color.id">
                   <span class="color-name">{{ color.name }}</span>
                 </div>
               </div>
             </div>
-            
+
             <div class="form-group">
               <label class="form-label">尺寸规格</label>
               <div class="size-selector">
@@ -116,17 +97,12 @@
               </div>
             </div>
           </div>
-          
+
           <div class="config-section">
             <h3 class="config-title">特殊功能</h3>
             <div class="feature-list">
-              <div 
-                v-for="feature in features" 
-                :key="feature.id"
-                class="feature-item"
-                :class="{ selected: selectedFeatures.includes(feature.id) }"
-                @click="toggleFeature(feature.id)"
-              >
+              <div v-for="feature in features" :key="feature.id" class="feature-item"
+                :class="{ selected: selectedFeatures.includes(feature.id) }" @click="toggleFeature(feature.id)">
                 <div class="feature-info">
                   <div class="feature-name">{{ feature.name }}</div>
                   <div class="feature-desc">{{ feature.description }}</div>
@@ -135,44 +111,31 @@
               </div>
             </div>
           </div>
-          
+
           <div class="config-section">
             <h3 class="config-title">个性化定制</h3>
             <div class="form-group">
               <label class="form-label">刻字内容 (可选)</label>
-              <input 
-                v-model="customText" 
-                type="text" 
-                class="pixel-input" 
-                placeholder="请输入要刻印的文字（最多20字符）"
-                maxlength="20"
-              >
+              <input v-model="customText" type="text" class="pixel-input" placeholder="请输入要刻印的文字（最多20字符）"
+                maxlength="20">
             </div>
-            
+
             <div class="form-group">
               <label class="form-label">特殊要求</label>
-              <textarea 
-                v-model="specialRequirements" 
-                class="pixel-textarea" 
-                placeholder="请描述您的特殊要求或想法..."
-                rows="4"
-              ></textarea>
+              <textarea v-model="specialRequirements" class="pixel-textarea" placeholder="请描述您的特殊要求或想法..."
+                rows="4"></textarea>
             </div>
           </div>
         </div>
-        
+
         <div class="step-actions">
           <button class="pixel-btn secondary" @click="prevStep">上一步</button>
-          <button 
-            class="pixel-btn" 
-            :disabled="!isStep2Valid"
-            @click="nextStep"
-          >
+          <button class="pixel-btn" :disabled="!isStep2Valid" @click="nextStep">
             下一步
           </button>
         </div>
       </div>
-      
+
       <!-- 步骤3: 确认订单 -->
       <div v-if="currentStep === 3" class="step-content">
         <h2 class="step-heading">确认订单</h2>
@@ -208,7 +171,7 @@
               <span class="item-value">{{ specialRequirements }}</span>
             </div>
           </div>
-          
+
           <div class="summary-section">
             <h3 class="summary-title">价格明细</h3>
             <div class="price-breakdown">
@@ -234,7 +197,7 @@
               </div>
             </div>
           </div>
-          
+
           <div class="summary-section">
             <h3 class="summary-title">联系信息</h3>
             <div class="form-group">
@@ -251,30 +214,23 @@
             </div>
           </div>
         </div>
-        
+
         <div class="step-actions">
           <button class="pixel-btn secondary" @click="prevStep">上一步</button>
-          <button 
-            class="pixel-btn" 
-            :disabled="!isStep3Valid"
-            @click="submitOrder"
-          >
+          <button class="pixel-btn" :disabled="!isStep3Valid" @click="submitOrder">
             提交定制需求
           </button>
         </div>
       </div>
     </div>
-    
+
     <!-- 页脚 -->
     <div class="footer">
       <p>© 2025 神秘秘境 | 私人定制服务 | 专业团队 | 品质保证</p>
     </div>
-    
+
     <!-- 联系弹窗 -->
-    <ContactModal 
-      :visible="showContactModal" 
-      @close="closeContactModal" 
-    />
+    <ContactModal :visible="showContactModal" @close="closeContactModal" />
   </div>
 </template>
 
@@ -346,7 +302,7 @@ const categories = ref([
     id: 'premium',
     name: '高端系列',
     description: '采用顶级材料，精工制作，为您带来极致体验',
-    image: 'https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=200&h=200&fit=crop',
+    image: 'https://shoplineimg.com/573bfdf903905586e8000240/6864eca1fedefa000e463146/360x.webp?source_format=jpg',
     priceRange: '¥800-2000',
     basePrice: 800
   },
@@ -354,7 +310,7 @@ const categories = ref([
     id: 'smart',
     name: '智能系列',
     description: '融合现代科技，智能控制，个性化体验',
-    image: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=200&h=200&fit=crop',
+    image: 'https://shoplineimg.com/573bfdf903905586e8000240/685b7ce8333751000d5c6959/360x.jpg?',
     priceRange: '¥1200-3000',
     basePrice: 1200
   },
@@ -362,18 +318,10 @@ const categories = ref([
     id: 'luxury',
     name: '奢华系列',
     description: '奢华设计，独特工艺，彰显品味与格调',
-    image: 'https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=200&h=200&fit=crop',
+    image: 'https://shoplineimg.com/573bfdf903905586e8000240/683eae9baef3280011675cae/360x.jpg?',
     priceRange: '¥2000-5000',
     basePrice: 2000
   },
-  {
-    id: 'custom',
-    name: '完全定制',
-    description: '根据您的想法完全定制，独一无二的专属产品',
-    image: 'https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=200&h=200&fit=crop',
-    priceRange: '¥3000起',
-    basePrice: 3000
-  }
 ])
 
 // 材质选项
@@ -504,12 +452,12 @@ function submitOrder() {
     totalPrice: totalPrice.value,
     timestamp: new Date().toISOString()
   }
-  
+
   console.log('提交定制订单:', orderData)
-  
+
   // 这里可以调用API提交订单
   alert(`定制需求已提交！\n\n我们的客服将在24小时内联系您确认详细需求。\n\n订单总价: ¥${totalPrice.value}\n联系方式: ${contactInfo.value.phone}`)
-  
+
   // 重置表单
   resetForm()
 }
@@ -570,7 +518,7 @@ onMounted(() => {
   left: 0;
   width: 100%;
   height: 100%;
-  background: 
+  background:
     linear-gradient(90deg, transparent 0%, rgba(143, 191, 159, 0.1) 25%, transparent 50%, rgba(241, 143, 1, 0.1) 75%, transparent 100%),
     linear-gradient(0deg, transparent 0%, rgba(143, 191, 159, 0.05) 50%, transparent 100%);
   background-size: 20px 20px, 20px 20px;
@@ -579,8 +527,13 @@ onMounted(() => {
 }
 
 @keyframes pixelMove {
-  0% { background-position: 0 0, 0 0; }
-  100% { background-position: 20px 20px, 0 20px; }
+  0% {
+    background-position: 0 0, 0 0;
+  }
+
+  100% {
+    background-position: 20px 20px, 0 20px;
+  }
 }
 
 .pixel-overlay {
@@ -589,21 +542,17 @@ onMounted(() => {
   left: 0;
   width: 100%;
   height: 100%;
-  background: 
-    repeating-linear-gradient(
-      0deg,
+  background:
+    repeating-linear-gradient(0deg,
       transparent,
       transparent 2px,
       rgba(143, 191, 159, 0.03) 2px,
-      rgba(143, 191, 159, 0.03) 4px
-    ),
-    repeating-linear-gradient(
-      90deg,
+      rgba(143, 191, 159, 0.03) 4px),
+    repeating-linear-gradient(90deg,
       transparent,
       transparent 2px,
       rgba(241, 143, 1, 0.03) 2px,
-      rgba(241, 143, 1, 0.03) 4px
-    );
+      rgba(241, 143, 1, 0.03) 4px);
   z-index: -1;
 }
 
@@ -662,7 +611,7 @@ onMounted(() => {
   font-weight: bold;
   text-align: center;
   color: var(--primary-300);
-  text-shadow: 
+  text-shadow:
     2px 2px 0 var(--accent-100),
     4px 4px 0 var(--primary-100),
     6px 6px 0 var(--accent-200);
@@ -671,11 +620,27 @@ onMounted(() => {
 }
 
 @keyframes titleGlitch {
-  0%, 100% { transform: translate(0); }
-  20% { transform: translate(-2px, 2px); }
-  40% { transform: translate(-2px, -2px); }
-  60% { transform: translate(2px, 2px); }
-  80% { transform: translate(2px, -2px); }
+
+  0%,
+  100% {
+    transform: translate(0);
+  }
+
+  20% {
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    transform: translate(2px, 2px);
+  }
+
+  80% {
+    transform: translate(2px, -2px);
+  }
 }
 
 /* 步骤指示器 */
@@ -828,14 +793,12 @@ onMounted(() => {
   left: 0;
   width: 100%;
   height: 100%;
-  background: 
-    repeating-linear-gradient(
-      0deg,
+  background:
+    repeating-linear-gradient(0deg,
       transparent,
       transparent 2px,
       rgba(143, 191, 159, 0.1) 2px,
-      rgba(143, 191, 159, 0.1) 4px
-    );
+      rgba(143, 191, 159, 0.1) 4px);
   pointer-events: none;
 }
 
@@ -1305,44 +1268,44 @@ onMounted(() => {
   .main-content {
     padding: 60px 15px 30px;
   }
-  
+
   .pixel-title {
     font-size: 2.5rem;
   }
-  
+
   .step-indicator {
     flex-direction: column;
     gap: 15px;
   }
-  
+
   .step-line {
     width: 3px;
     height: 40px;
   }
-  
+
   .customize-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .option-grid {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   }
-  
+
   .color-grid {
     grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
   }
-  
+
   .step-actions {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .left-buttons {
     top: 10px;
     left: 10px;
     gap: 10px;
   }
-  
+
   .left-btn {
     font-size: 0.9rem;
     padding: 10px 16px;
@@ -1353,25 +1316,25 @@ onMounted(() => {
   .pixel-title {
     font-size: 2rem;
   }
-  
+
   .step-heading {
     font-size: 1.5rem;
   }
-  
+
   .config-section {
     padding: 15px;
   }
-  
+
   .summary-section {
     padding: 15px;
   }
-  
+
   .feature-item {
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
   }
-  
+
   .feature-price {
     align-self: flex-end;
   }
