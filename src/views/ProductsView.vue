@@ -441,6 +441,13 @@ function clearAllFilters() {
 onMounted(async () => {
   // 组件挂载时加载数据
   await loadCategories()
+  
+  // 检查URL查询参数，如果有category参数则自动选中对应分类
+  const route = router.currentRoute.value
+  if (route.query.category) {
+    selectedTags.value = [route.query.category]
+  }
+  
   await loadProducts()
 })
 </script>

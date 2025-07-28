@@ -6,105 +6,36 @@
 
     <!-- 导航栏 -->
     <nav class="pixel-nav">
-      <a @click="goToProducts" class="pixel-nav-item">商品分类</a>
-      <a @click="goToCustomize" class="pixel-nav-item">私人定制</a>
-      <a @click="openContactModal" class="pixel-nav-item">联系客服</a>
+      <a @click="goToProducts" class="pixel-nav-item" :class="{ active: currentPage === 'products' }">商品分类</a>
+      <a @click="goToCustomize" class="pixel-nav-item" :class="{ active: currentPage === 'customize' }">私人定制</a>
+      <a @click="openContactModal" class="pixel-nav-item" :class="{ active: currentPage === 'contact' }">联系客服</a>
     </nav>
 
     <!-- 主要内容容器 -->
     <div class="pixel-container">
       <div class="pixel-text" style="text-align: center; font-size: 1.5rem; margin-bottom: 40px; font-weight: bold; color: var(--primary-300);">
-        ▼ 我们的六大核心优势 ▼
+        ▼ 我们的六大热门系列 ▼
       </div>
 
-      <!-- 产品网格 -->
+      <!-- 产品系列网格 -->
       <div class="pixel-grid">
-        <div class="pixel-card">
+        <div 
+          v-for="category in productCategories" 
+          :key="category.id" 
+          class="pixel-card"
+          @click="goToProductsByCategory(category.id)"
+        >
           <div class="pixel-image-container">
-            <img src="https://cdn-icons-png.flaticon.com/512/1828/1828640.png" alt="品质保证"
+            <img :src="category.image" :alt="category.name"
               class="pixel-image">
             <div class="pixel-image-overlay"></div>
           </div>
-          <h3 class="pixel-title-small">品质保证</h3>
+          <h3 class="pixel-title-small">{{ category.name }}</h3>
           <p class="pixel-text">
-            严格的质量控制体系，每一件产品都经过多重检验。
-            采用优质材料，确保安全可靠的使用体验。
+            {{ category.description }}
           </p>
           <br>
-          <button class="pixel-btn" @click="goToProducts">查看产品</button>
-        </div>
-
-        <div class="pixel-card">
-          <div class="pixel-image-container">
-            <img src="https://cdn-icons-png.flaticon.com/512/159/159078.png" alt="隐私保护"
-              class="pixel-image">
-            <div class="pixel-image-overlay"></div>
-          </div>
-          <h3 class="pixel-title-small">隐私保护</h3>
-          <p class="pixel-text">
-            严格保护客户隐私信息，采用加密包装和匿名配送。
-            让您安心购买，无需担心个人信息泄露。
-          </p>
-          <br>
-          <button class="pixel-btn" @click="openContactModal">了解详情</button>
-        </div>
-        <div class="pixel-card">
-          <div class="pixel-image-container">
-            <img src="https://cdn-icons-png.flaticon.com/512/411/411763.png" alt="快速配送"
-              class="pixel-image">
-            <div class="pixel-image-overlay"></div>
-          </div>
-          <h3 class="pixel-title-small">快速配送</h3>
-          <p class="pixel-text">
-            全国多仓库布局，支持当日达和次日达服务。
-            专业物流团队，确保商品安全快速送达。
-          </p>
-          <br>
-          <button class="pixel-btn" @click="openContactModal">配送咨询</button>
-        </div>
-        <div class="pixel-card">
-          <div class="pixel-image-container">
-            <img src="https://cdn-icons-png.flaticon.com/512/1067/1067566.png" alt="专业服务"
-              class="pixel-image">
-            <div class="pixel-image-overlay"></div>
-          </div>
-          <h3 class="pixel-title-small">专业服务</h3>
-          <p class="pixel-text">
-            7x24小时专业客服团队，提供产品咨询和使用指导。
-            经验丰富的团队为您解答所有疑问。
-          </p>
-          <br>
-          <button class="pixel-btn" @click="openContactModal">联系客服</button>
-        </div>
-
-        <div class="pixel-card">
-          <div class="pixel-image-container">
-            <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="售后保障"
-              class="pixel-image">
-            <div class="pixel-image-overlay"></div>
-          </div>
-          <h3 class="pixel-title-small">售后保障</h3>
-          <p class="pixel-text">
-            完善的售后服务体系，支持无理由退换货政策。
-            让您购买无忧，享受贴心的售后保障服务。
-          </p>
-          <br>
-          <button class="pixel-btn" @click="openContactModal">售后咨询</button>
-        </div>
-
-        <div class="pixel-card">
-          <div class="pixel-image-container">
-            <img src="https://cdn-icons-png.flaticon.com/512/1828/1828911.png" alt="个性定制"
-              class="pixel-image">
-            <div class="pixel-image-overlay"></div>
-          </div>
-          <h3 class="pixel-title-small">个性定制</h3>
-          <p class="pixel-text">
-            提供个性化定制服务，满足您的特殊需求。
-            专业团队为您打造独一无二的专属产品。
-          </p>
-          <br>
-          <button class="pixel-btn" @click="goToCustomize">定制服务</button>
+          <button class="pixel-btn" @click.stop="goToProductsByCategory(category.id)">查看系列</button>
         </div>
       </div>
 
@@ -198,15 +129,74 @@ import { productApi } from '@/api/productApi'
 
 const router = useRouter()
 
+// 当前页面状态
+const currentPage = ref('home')
+
+// 产品分类数据
+const productCategories = ref([
+  {
+    id: 'male-toys',
+    name: '倒模',
+    description: '高品质仿真设计，带来极致体验',
+    image: 'https://shoplineimg.com/573bfdf903905586e8000240/660bb49bf8945c00206a6c57/800x.webp?source_format=jpg',
+    color: '#FF6B6B'
+  },
+  {
+    id: 'female-vibrators',
+    name: '按摩棒',
+    description: '多频震动模式，舒适安全材质',
+    image: 'https://shoplineimg.com/573bfdf903905586e8000240/6864a4efb98276000e4b0e90/360x.webp?source_format=jpg',
+    color: '#4ECDC4'
+  },
+  {
+    id: 'couple-toys',
+    name: '情趣内衣',
+    description: '浪漫设计，增进情侣感情',
+    image: 'https://shoplineimg.com/573bfdf903905586e8000240/66bc71b5f25b480016fdcd99/360x.webp?source_format=jpg',
+    color: '#45B7D1'
+  },
+  {
+    id: 'massage-oil',
+    name: '按摩油',
+    description: '天然植物精华，温和滋润',
+    image: 'https://shoplineimg.com/573bfdf903905586e8000240/67f49c174694230010000250/360x.webp?source_format=jpg',
+    color: '#96CEB4'
+  },
+  {
+    id: 'massage-device',
+    name: '按摩器',
+    description: '智能控制，多种按摩模式',
+    image: 'https://shoplineimg.com/573bfdf903905586e8000240/686b88e1dccd8d000df034e7/360x.webp?source_format=png',
+    color: '#FFEAA7'
+  },
+  {
+    id: 'private-care',
+    name: '私密护理',
+    description: '专业护理，温和呵护',
+    image: 'https://shoplineimg.com/573bfdf903905586e8000240/67934e22dd0a73000f1aaf4f/360x.webp?source_format=png',
+    color: '#DDA0DD'
+  }
+])
+
+// 跳转到指定分类的商品页面
+function goToProductsByCategory(categoryId) {
+  router.push({
+    path: '/products',
+    query: { category: categoryId }
+  })
+}
+
 // 联系弹窗相关
 const showContactModal = ref(false)
 
 function openContactModal() {
+  currentPage.value = 'contact'
   showContactModal.value = true
 }
 
 function closeContactModal() {
   showContactModal.value = false
+  currentPage.value = 'home'
 }
 
 // Banner广告相关数据
@@ -257,11 +247,13 @@ const fetchUserReviews = async () => {
 
 // 跳转到商品页面
 function goToProducts() {
+  currentPage.value = 'products'
   router.push('/products')
 }
 
 // 跳转到私人定制页面
 function goToCustomize() {
+  currentPage.value = 'customize'
   router.push('/customize')
 }
 
@@ -648,8 +640,8 @@ onUnmounted(() => {
 
 /* 自然风格图片容器 */
 .pixel-image-container {
-  width: 120px;
-  height: 120px;
+  width: 160px;
+  height: 160px;
   margin: 0 auto 20px;
   position: relative;
   border: 3px solid var(--primary-200);
@@ -1170,25 +1162,27 @@ onUnmounted(() => {
   display: inline-block;
   margin: 0 10px;
   padding: 10px 20px;
-  background: var(--bg-100);
-  border: 2px solid var(--primary-200);
-  color: var(--primary-200);
+  background: var(--accent-100);
+  color: var(--bg-100);
+  border: 2px solid var(--accent-100);
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: all 0.2s ease;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(143, 191, 159, 0.2);
+  box-shadow: 0 4px 8px rgba(241, 143, 1, 0.4);
   cursor: pointer;
+  animation: pulse 2s infinite;
 }
 
-.pixel-nav-item:last-child {
-  background: var(--accent-100);
+.pixel-nav-item.active {
+  background: var(--primary-200);
   color: var(--bg-100);
-  border-color: var(--accent-100);
-  animation: pulse 2s infinite;
-  box-shadow: 0 4px 8px rgba(241, 143, 1, 0.4);
+  border-color: var(--primary-200);
+  animation: none;
+  box-shadow: 0 4px 12px rgba(143, 191, 159, 0.6), 0 0 20px rgba(143, 191, 159, 0.3);
+  transform: scale(1.05);
 }
 
 @keyframes pulse {
@@ -1204,16 +1198,15 @@ onUnmounted(() => {
 }
 
 .pixel-nav-item:hover {
-  background: var(--primary-200);
-  color: var(--bg-100);
-  transform: translate(-2px, -2px);
-  box-shadow: 4px 4px 0 var(--accent-100);
-}
-
-.pixel-nav-item:last-child:hover {
   background: var(--accent-200);
   transform: translate(-2px, -2px);
   box-shadow: 4px 4px 0 var(--primary-200);
+}
+
+.pixel-nav-item.active:hover {
+  background: var(--primary-300);
+  transform: translate(-2px, -2px) scale(1.05);
+  box-shadow: 4px 4px 0 var(--accent-100), 0 4px 15px rgba(143, 191, 159, 0.8);
 }
 
 
