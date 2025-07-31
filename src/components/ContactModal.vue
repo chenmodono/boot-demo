@@ -2,8 +2,8 @@
   <div v-if="visible" class="modal-overlay" @click="closeModal">
     <div class="modal-content" @click.stop>
       <div class="modal-header">
-        <h3 class="modal-title">联系我们</h3>
-        <p class="modal-subtitle">扫描下方二维码添加客服微信或关注公众号</p>
+        <h3 class="modal-title">{{ $t('contact.title') }}</h3>
+        <p class="modal-subtitle">{{ $t('contact.subtitle') }}</p>
         <button class="close-btn" @click="closeModal">
           <span>&times;</span>
         </button>
@@ -17,14 +17,14 @@
             :class="{ active: activeTab === 'wechat' }"
             @click="switchTab('wechat')"
           >
-            客服微信
+            {{ $t('contact.wechatService') }}
           </button>
           <button 
             class="tab-btn" 
             :class="{ active: activeTab === 'gongzhonghao' }"
             @click="switchTab('gongzhonghao')"
           >
-            小红书
+            {{ $t('contact.xiaohongshu') }}
           </button>
         </div>
         
@@ -33,19 +33,19 @@
           <div class="qr-code">
             <img 
               :src="activeTab === 'wechat' ? '/wechat-qr.png' : '/douyin-qr.png'" 
-              :alt="activeTab === 'wechat' ? '微信二维码' : '小红书二维码'" 
+              :alt="activeTab === 'wechat' ? $t('contact.wechatQR') : $t('contact.xiaohongshuQR')" 
               class="qr-image" 
             />
           </div>
           <div class="contact-info">
             <p class="contact-id">
-              <strong>{{ activeTab === 'wechat' ? '微信号：' : '小红书号：' }}</strong>{{ activeTab === 'wechat' ? 'zdw2458' : '5552458aa' }}
+              <strong>{{ activeTab === 'wechat' ? $t('contact.wechatId') : $t('contact.xiaohongshuId') }}</strong>{{ activeTab === 'wechat' ? 'zdw2458' : '5552458aa' }}
             </p>
             <p class="service-time-info">
-              <strong>服务时间：</strong>9:00-21:00
+              <strong>{{ $t('contact.serviceTime') }}</strong>9:00-21:00
             </p>
             <p class="service-content">
-              <strong>服务内容：</strong>技术支持、定制开发、问题咨询
+              <strong>{{ $t('contact.serviceContent') }}</strong>{{ $t('contact.serviceContentText') }}
             </p>
           </div>
         </div>

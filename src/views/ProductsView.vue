@@ -8,13 +8,13 @@
     <div class="page-header">
       <div class="header-row">
         <button @click="goHome" class="home-btn">
-          ← 返回首页
+          {{ $t('products.backHome') }}
         </button>
         <div class="search-container">
           <input 
             v-model="searchQuery" 
             type="text" 
-            placeholder="搜索商品..."
+            :placeholder="$t('products.searchPlaceholder')"
             class="pixel-search"
           >
           <button class="search-btn">🔍</button>
@@ -34,22 +34,22 @@
           :style="{ '--tag-color': selectedTags.includes(tag.id) ? '#000' : tag.color }"
           @click="toggleTag(tag.id)"
         >
-          {{ tag.name }}
+          {{ $t(`categories.${tag.id}`) }}
         </div>
       </div>
       
       <div class="filter-actions">
         <div class="sort-options">
           <select v-model="sortBy" class="pixel-select">
-            <option value="name">按名称排序</option>
-            <option value="price-low">价格：低到高</option>
-            <option value="price-high">价格：高到低</option>
-            <option value="rating">按评分排序</option>
+            <option value="name">{{ $t('products.sortByName') }}</option>
+            <option value="price-low">{{ $t('products.sortByPriceLow') }}</option>
+            <option value="price-high">{{ $t('products.sortByPriceHigh') }}</option>
+            <option value="rating">{{ $t('products.sortByRating') }}</option>
           </select>
         </div>
         
         <button @click="clearAllCategories" class="clear-btn">
-          清除所有标签
+          {{ $t('products.clearAllTags') }}
         </button>
       </div>
     </div>
@@ -57,13 +57,13 @@
     <!-- 加载状态 -->
     <div v-if="loading" class="loading-container">
       <div class="loading-spinner"></div>
-      <p class="loading-text">正在加载商品...</p>
+      <p class="loading-text">{{ $t('products.loadingProducts') }}</p>
     </div>
     
     <!-- 错误提示 -->
     <div v-else-if="error" class="error-container">
       <p class="error-text">{{ error }}</p>
-      <button @click="loadProducts" class="retry-btn">重试</button>
+      <button @click="loadProducts" class="retry-btn">{{ $t('common.retry') }}</button>
     </div>
     
     <!-- 商品网格 -->
@@ -71,9 +71,9 @@
       <!-- 空状态提示 -->
       <div v-if="filteredProducts.length === 0" class="empty-state">
         <div class="empty-icon">📦</div>
-        <h3 class="empty-title">暂时没有该产品</h3>
-        <p class="empty-description">请尝试调整筛选条件或搜索关键词</p>
-        <button @click="clearAllFilters" class="reset-filters-btn">重置筛选条件</button>
+        <h3 class="empty-title">{{ $t('products.emptyTitle') }}</h3>
+        <p class="empty-description">{{ $t('products.emptyDescription') }}</p>
+        <button @click="clearAllFilters" class="reset-filters-btn">{{ $t('products.resetFilters') }}</button>
       </div>
       
       <!-- 商品列表 -->
@@ -89,8 +89,8 @@
           <div class="pixel-image-overlay"></div>
           <div class="product-overlay">
             <div class="overlay-content">
-              <button class="quick-view-btn">快速预览</button>
-              <button class="add-to-cart-btn">加入购物车</button>
+              <button class="quick-view-btn">{{ $t('products.quickView') }}</button>
+              <button class="add-to-cart-btn">{{ $t('products.addToCart') }}</button>
             </div>
           </div>
           <div class="product-badge" v-if="product.isNew">NEW</div>

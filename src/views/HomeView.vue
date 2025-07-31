@@ -6,15 +6,15 @@
 
     <!-- 导航栏 -->
     <nav class="pixel-nav">
-      <a @click="goToProducts" class="pixel-nav-item" :class="{ active: currentPage === 'products' }">商品分类</a>
-      <a @click="goToCustomize" class="pixel-nav-item" :class="{ active: currentPage === 'customize' }">私人定制</a>
-      <a @click="openContactModal" class="pixel-nav-item" :class="{ active: currentPage === 'contact' }">联系客服</a>
+      <a @click="goToProducts" class="pixel-nav-item" :class="{ active: currentPage === 'products' }">{{ $t('nav.products') }}</a>
+      <a @click="goToCustomize" class="pixel-nav-item" :class="{ active: currentPage === 'customize' }">{{ $t('nav.customize') }}</a>
+      <a @click="openContactModal" class="pixel-nav-item" :class="{ active: currentPage === 'contact' }">{{ $t('nav.contact') }}</a>
     </nav>
 
     <!-- 主要内容容器 -->
     <div class="pixel-container">
       <div class="pixel-text" style="text-align: center; font-size: 1.5rem; margin-bottom: 40px; font-weight: bold; color: var(--primary-300);">
-        ▼ 我们的六大热门系列 ▼
+        {{ $t('home.title') }}
       </div>
 
       <!-- 产品系列网格 -->
@@ -35,19 +35,19 @@
             {{ category.description }}
           </p>
           <br>
-          <button class="pixel-btn" @click.stop="goToProductsByCategory(category.id)">查看系列</button>
+          <button class="pixel-btn" @click.stop="goToProductsByCategory(category.id)">{{ $t('home.viewSeries') }}</button>
         </div>
       </div>
 
       <!-- 用户评价展示区 -->
       <div class="pixel-gallery">
         <h2 class="pixel-title-small" style="text-align: center; margin-bottom: 20px; font-size: 2rem;">
-          ▼ 真实用户评价 ▼
+          {{ $t('home.userReviews') }}
         </h2>
         <div class="reviews-container">
           <div v-if="isLoadingReviews" class="loading-state">
             <div class="loading-spinner"></div>
-            <p>正在加载用户评价...</p>
+            <p>{{ $t('home.loadingReviews') }}</p>
           </div>
           <div v-else-if="userReviews.length > 0" class="reviews-scroll">
             <div v-for="(review, index) in userReviews" :key="index" class="review-item">
@@ -83,7 +83,7 @@
             </div>
           </div>
           <div v-else class="empty-state">
-            <p>暂无用户评价</p>
+            <p>{{ $t('home.noReviews') }}</p>
           </div>
         </div>
       </div>

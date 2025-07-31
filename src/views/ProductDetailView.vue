@@ -7,23 +7,23 @@
     <!-- 返回按钮 -->
     <div class="header-nav">
       <button @click="goBack" class="back-btn">
-        ← 返回商品列表
+        {{ $t('productDetail.backToProducts') }}
       </button>
       <button @click="goHome" class="home-btn">
-        🏠 返回首页
+        {{ $t('productDetail.backToHome') }}
       </button>
     </div>
     
     <!-- 加载状态 -->
     <div v-if="loading" class="loading-container">
       <div class="loading-spinner"></div>
-      <p class="loading-text">正在加载商品详情...</p>
+      <p class="loading-text">{{ $t('productDetail.loadingProduct') }}</p>
     </div>
     
     <!-- 错误提示 -->
     <div v-else-if="error" class="error-container">
       <p class="error-text">{{ error }}</p>
-      <button @click="loadProduct" class="retry-btn">重试</button>
+      <button @click="loadProduct" class="retry-btn">{{ $t('productDetail.retry') }}</button>
     </div>
     
     <!-- 商品详情内容 -->
@@ -41,7 +41,7 @@
               <button 
                 @click="toggleAutoSlide" 
                 :class="['auto-slide-btn', { active: isAutoSliding }]"
-                :title="isAutoSliding ? '停止自动播放' : '开始自动播放'"
+                :title="isAutoSliding ? $t('productDetail.stopAutoplay') : $t('productDetail.startAutoplay')"
               >
                 {{ isAutoSliding ? '⏸️' : '▶️' }}
               </button>
@@ -84,30 +84,30 @@
             <div class="stars">
               <span v-for="star in 5" :key="star" class="star" :class="{ filled: star <= product.rating }">★</span>
             </div>
-            <span class="rating-text">{{ product.rating }} ({{ product.reviews }} 评价)</span>
+            <span class="rating-text">{{ product.rating }} ({{ product.reviews }} {{ $t('productDetail.reviews') }})</span>
           </div>
           
           <div class="product-price">
             <span v-if="product.originalPrice" class="original-price">¥{{ product.originalPrice }}</span>
             <span class="current-price">¥{{ product.price }}</span>
-            <span v-if="product.discount" class="save-amount">节省 ¥{{ product.originalPrice - product.price }}</span>
+            <span v-if="product.discount" class="save-amount">{{ $t('productDetail.save') }} ¥{{ product.originalPrice - product.price }}</span>
           </div>
           
           <div class="product-description">
-            <h3>商品描述</h3>
+            <h3>{{ $t('productDetail.productDescription') }}</h3>
             <p>{{ product.description }}</p>
           </div>
           
           <!-- 商品款式选择 -->
           <div class="product-variants" v-if="product.variants">
             <div class="variants-header">
-              <h4>选择款式</h4>
+              <h4>{{ $t('productDetail.selectVariant') }}</h4>
               <button 
                 class="toggle-btn" 
                 @click="toggleVariantsExpanded"
                 v-if="product.variants.length > 3"
               >
-                {{ isVariantsExpanded ? '收起' : '展开' }}
+                {{ isVariantsExpanded ? $t('productDetail.collapse') : $t('productDetail.expand') }}
                 <span class="toggle-icon">{{ isVariantsExpanded ? '▲' : '▼' }}</span>
               </button>
             </div>
@@ -127,7 +127,7 @@
                     <span class="variant-price">¥{{ variant.price }}</span>
                   </div>
                   <p class="variant-description">{{ variant.description }}</p>
-                  <div class="variant-stock">库存：{{ variant.stock }} 件</div>
+                  <div class="variant-stock">{{ $t('productDetail.stock') }}{{ variant.stock }} {{ $t('productDetail.pieces') }}</div>
                 </div>
                 
                 <div class="variant-controls">
@@ -150,10 +150,10 @@
             
             <!-- 总计信息 -->
             <div class="total-summary" v-if="totalQuantity > 0">
-              <h5>购买总计</h5>
+              <h5>{{ $t('productDetail.purchaseTotal') }}</h5>
               <div class="total-info">
-                <span class="total-quantity">总数量：{{ totalQuantity }} 件</span>
-                <span class="total-price">总价：¥{{ totalPrice }}</span>
+                <span class="total-quantity">{{ $t('productDetail.totalQuantity') }}{{ totalQuantity }} {{ $t('productDetail.pieces') }}</span>
+                <span class="total-price">{{ $t('productDetail.totalPrice') }}¥{{ totalPrice }}</span>
               </div>
             </div>
           </div>
@@ -161,10 +161,10 @@
           <!-- 购买按钮 -->
           <div class="purchase-actions">
             <button @click="buyNow" class="pixel-btn buy-now">
-              ⚡ 立即购买
+              {{ $t('productDetail.buyNow') }}
             </button>
             <button @click="toggleFavorite" :class="['pixel-btn', 'favorite', { active: isFavorite }]">
-              {{ isFavorite ? '❤️' : '🤍' }} {{ isFavorite ? '已收藏' : '收藏' }}
+              {{ isFavorite ? $t('productDetail.favorited') : $t('productDetail.favorite') }}
             </button>
           </div>
         </div>
@@ -179,14 +179,14 @@
             :class="['tab-header', { active: activeTab === tab.id }]"
             @click="activeTab = tab.id"
           >
-            {{ tab.name }}
+            {{ $t(tab.name) }}
           </button>
         </div>
         
         <div class="tab-content">
           <!-- 详细描述 -->
           <div v-if="activeTab === 'description'" class="tab-panel">
-            <h3>详细描述</h3>
+            <h3>{{ $t('productDetail.detailedDescription') }}</h3>
             <div class="description-content">
               <!-- 描述文字 -->
               <div class="description-text">
@@ -195,7 +195,7 @@
               
               <!-- 描述图片 -->
               <div v-if="product.descriptionImages && product.descriptionImages.length > 0" class="description-images">
-                <h4>产品展示</h4>
+                <h4>{{ $t('productDetail.productShowcase') }}</h4>
                 <div class="images-grid">
                   <div 
                     v-for="(image, index) in product.descriptionImages" 
@@ -203,7 +203,7 @@
                     class="description-image-item"
                     @click="openImageModal(image)"
                   >
-                    <img :src="image" :alt="`产品展示图 ${index + 1}`" class="description-image">
+                    <img :src="image" :alt="`${$t('productDetail.productShowcaseImage')} ${index + 1}`" class="description-image">
                     <div class="image-overlay">
                       <span class="zoom-icon">🔍</span>
                     </div>
@@ -215,7 +215,7 @@
           
           <!-- 规格参数 -->
           <div v-if="activeTab === 'specifications'" class="tab-panel">
-            <h3>规格参数</h3>
+            <h3>{{ $t('productDetail.specifications') }}</h3>
             <table class="specs-table">
               <tr v-for="param in product.parameters" :key="param.name">
                 <td class="param-name">{{ param.name }}</td>
@@ -226,7 +226,7 @@
           
           <!-- 用户评价 -->
           <div v-if="activeTab === 'reviews'" class="tab-panel">
-            <h3>用户评价 ({{ product.reviews }})</h3>
+            <h3>{{ $t('productDetail.userReviews') }} ({{ product.reviews }})</h3>
             <div class="reviews-list">
               <div v-for="review in product.reviewList" :key="review.id" class="review-item">
                 <div class="review-header">
@@ -243,23 +243,23 @@
           
           <!-- 售后服务 -->
           <div v-if="activeTab === 'service'" class="tab-panel">
-            <h3>售后服务</h3>
+            <h3>{{ $t('productDetail.afterSalesService') }}</h3>
             <div class="service-content">
               <div class="service-item">
-                <h4>🚚 配送服务</h4>
-                <p>全国包邮，48小时内发货，支持货到付款</p>
+                <h4>{{ $t('productDetail.deliveryService') }}</h4>
+                <p>{{ $t('productDetail.deliveryServiceDesc') }}</p>
               </div>
               <div class="service-item">
-                <h4>🔄 退换政策</h4>
-                <p>7天无理由退换，30天质量保证</p>
+                <h4>{{ $t('productDetail.returnPolicy') }}</h4>
+                <p>{{ $t('productDetail.returnPolicyDesc') }}</p>
               </div>
               <div class="service-item">
-                <h4>🛡️ 隐私保护</h4>
-                <p>隐私包装，保护您的个人隐私</p>
+                <h4>{{ $t('productDetail.privacyProtection') }}</h4>
+                <p>{{ $t('productDetail.privacyProtectionDesc') }}</p>
               </div>
               <div class="service-item">
-                <h4>📞 客服支持</h4>
-                <p>24小时在线客服，专业解答您的疑问</p>
+                <h4>{{ $t('productDetail.customerSupport') }}</h4>
+                <p>{{ $t('productDetail.customerSupportDesc') }}</p>
               </div>
             </div>
           </div>
@@ -271,14 +271,14 @@
     
     <!-- 加载状态 -->
     <div v-else class="loading">
-      <div class="loading-text">加载中...</div>
+      <div class="loading-text">{{ $t('productDetail.loading') }}</div>
     </div>
     
     <!-- 图片模态框 -->
     <div v-if="showImageModal" class="image-modal" @click="closeImageModal">
       <div class="modal-content" @click.stop>
         <span class="close-btn" @click="closeImageModal">&times;</span>
-        <img :src="modalImage" alt="产品详细图片" class="modal-image">
+        <img :src="modalImage" :alt="$t('productDetail.productDetailImage')" class="modal-image">
       </div>
     </div>
   </div>
@@ -287,7 +287,10 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
+import { useI18n } from 'vue-i18n'
 import { productApi } from '../api/productApi.js'
+
+const { t: $t } = useI18n()
 
 const route = useRoute()
 const router = useRouter()
@@ -309,10 +312,10 @@ const modalImage = ref('') // 模态框中显示的图片
 
 // 标签页配置
 const tabs = ref([
-  { id: 'description', name: '详细描述' },
-  { id: 'specifications', name: '规格参数' },
-  { id: 'reviews', name: '用户评价' },
-  { id: 'service', name: '售后服务' }
+  { id: 'description', name: 'productDetail.detailedDescription' },
+  { id: 'specifications', name: 'productDetail.specifications' },
+  { id: 'reviews', name: 'productDetail.userReviews' },
+  { id: 'service', name: 'productDetail.afterSalesService' }
 ])
 
 // 计算属性
@@ -451,7 +454,7 @@ function closeImageModal() {
 function buyNow() {
   // 检查是否有选择的款式
   if (totalQuantity.value === 0) {
-    alert('请先选择商品款式和数量')
+    alert($t('productDetail.pleaseSelectVariant'))
     return
   }
   
@@ -489,7 +492,7 @@ function buyNow() {
 
 function toggleFavorite() {
   isFavorite.value = !isFavorite.value
-  console.log('收藏状态:', isFavorite.value)
+  console.log($t('productDetail.favoriteStatus'), isFavorite.value)
 }
 
 

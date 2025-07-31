@@ -7,20 +7,20 @@
     <!-- 返回按钮 -->
     <div class="header-nav">
       <button @click="goBack" class="back-btn">
-        ← 返回商品详情
+        {{ $t('checkout.backToDetail') }}
       </button>
       <button @click="goHome" class="home-btn">
-        🏠 返回首页
+        {{ $t('checkout.backToHome') }}
       </button>
     </div>
     
     <!-- 结算内容 -->
     <div class="checkout-container">
-      <h1 class="checkout-title">订单结算</h1>
+      <h1 class="checkout-title">{{ $t('checkout.title') }}</h1>
       
       <!-- 商品信息确认 -->
       <div class="checkout-section">
-        <h2 class="section-title">📦 商品信息</h2>
+        <h2 class="section-title">{{ $t('checkout.productInfo') }}</h2>
         <div class="product-summary">
           <div class="product-item">
             <img :src="orderData.product.image" :alt="orderData.product.name" class="product-image">
@@ -38,8 +38,8 @@
               </div>
               
               <div class="product-pricing">
-                <span class="total-quantity">总数量: {{ orderData.totalQuantity }}</span>
-                <span class="total-price">总价: ¥{{ orderData.totalPrice.toFixed(2) }}</span>
+                <span class="total-quantity">{{ $t('checkout.totalQuantity') }}: {{ orderData.totalQuantity }}</span>
+                <span class="total-price">{{ $t('checkout.totalPrice') }}: ¥{{ orderData.totalPrice.toFixed(2) }}</span>
               </div>
             </div>
           </div>
@@ -48,7 +48,7 @@
       
       <!-- 收货地址 -->
       <div class="checkout-section">
-        <h2 class="section-title">📍 收货地址</h2>
+        <h2 class="section-title">{{ $t('checkout.shippingAddress') }}</h2>
         <div class="address-section">
           <!-- 地址列表 -->
           <div class="address-list" v-if="addresses.length > 0">
@@ -61,7 +61,7 @@
               <div class="address-header">
                 <span class="recipient">{{ address.name }}</span>
                 <span class="phone">{{ address.phone }}</span>
-                <span v-if="address.isDefault" class="default-tag">默认</span>
+                <span v-if="address.isDefault" class="default-tag">{{ $t('checkout.default') }}</span>
               </div>
               <p class="address-detail">{{ address.fullAddress }}</p>
             </div>
@@ -69,43 +69,43 @@
           
           <!-- 新增地址 -->
           <div class="add-address" v-if="showAddressForm">
-            <h3>新增收货地址</h3>
+            <h3>{{ $t('checkout.addNewAddress') }}</h3>
             <form @submit.prevent="addAddress" class="address-form">
               <div class="form-row">
-                <input v-model="newAddress.name" placeholder="收货人姓名" required class="form-input">
-                <input v-model="newAddress.phone" placeholder="手机号码" required class="form-input">
+                <input v-model="newAddress.name" :placeholder="$t('checkout.recipientName')" required class="form-input">
+                <input v-model="newAddress.phone" :placeholder="$t('checkout.phoneNumber')" required class="form-input">
               </div>
               <div class="form-row">
                 <select v-model="newAddress.province" @change="onProvinceChange" required class="form-select">
-                  <option value="">选择省份</option>
+                  <option value="">{{ $t('checkout.selectProvince') }}</option>
                   <option v-for="province in provinces" :key="province" :value="province">{{ province }}</option>
                 </select>
                 <select v-model="newAddress.city" @change="onCityChange" required class="form-select">
-                  <option value="">选择城市</option>
+                  <option value="">{{ $t('checkout.selectCity') }}</option>
                   <option v-for="city in cities" :key="city" :value="city">{{ city }}</option>
                 </select>
                 <select v-model="newAddress.district" required class="form-select">
-                  <option value="">选择区县</option>
+                  <option value="">{{ $t('checkout.selectDistrict') }}</option>
                   <option v-for="district in districts" :key="district" :value="district">{{ district }}</option>
                 </select>
               </div>
-              <textarea v-model="newAddress.detail" placeholder="详细地址" required class="form-textarea"></textarea>
+              <textarea v-model="newAddress.detail" :placeholder="$t('checkout.detailAddress')" required class="form-textarea"></textarea>
               <div class="form-actions">
-                <button type="submit" class="pixel-btn save-btn">保存地址</button>
-                <button type="button" @click="cancelAddAddress" class="pixel-btn cancel-btn">取消</button>
+                <button type="submit" class="pixel-btn save-btn">{{ $t('checkout.saveAddress') }}</button>
+                <button type="button" @click="cancelAddAddress" class="pixel-btn cancel-btn">{{ $t('checkout.cancel') }}</button>
               </div>
             </form>
           </div>
           
           <button v-if="!showAddressForm" @click="showAddressForm = true" class="pixel-btn add-address-btn">
-            ➕ 新增收货地址
+            {{ $t('checkout.addAddress') }}
           </button>
         </div>
       </div>
       
       <!-- 配送方式 -->
       <div class="checkout-section">
-        <h2 class="section-title">🚚 配送方式</h2>
+        <h2 class="section-title">{{ $t('checkout.deliveryMethod') }}</h2>
         <div class="delivery-options">
           <div 
             v-for="option in deliveryOptions" 
@@ -115,7 +115,7 @@
           >
             <div class="option-header">
               <span class="option-name">{{ option.name }}</span>
-              <span class="option-price">{{ option.price === 0 ? '免费' : `¥${option.price}` }}</span>
+              <span class="option-price">{{ option.price === 0 ? $t('checkout.free') : `¥${option.price}` }}</span>
             </div>
             <p class="option-description">{{ option.description }}</p>
           </div>
@@ -124,7 +124,7 @@
       
       <!-- 支付方式 -->
       <div class="checkout-section">
-        <h2 class="section-title">💳 支付方式</h2>
+        <h2 class="section-title">{{ $t('checkout.paymentMethod') }}</h2>
         <div class="payment-methods">
           <div 
             v-for="method in paymentMethods" 
@@ -143,11 +143,11 @@
       
       <!-- 优惠券 -->
       <div class="checkout-section">
-        <h2 class="section-title">🎫 优惠券</h2>
+        <h2 class="section-title">{{ $t('checkout.coupon') }}</h2>
         <div class="coupon-section">
           <div class="coupon-input">
-            <input v-model="couponCode" placeholder="请输入优惠券代码" class="form-input">
-            <button @click="applyCoupon" class="pixel-btn apply-btn">使用</button>
+            <input v-model="couponCode" :placeholder="$t('checkout.enterCouponCode')" class="form-input">
+            <button @click="applyCoupon" class="pixel-btn apply-btn">{{ $t('checkout.use') }}</button>
           </div>
           
           <div v-if="appliedCoupon" class="applied-coupon">
@@ -157,7 +157,7 @@
           </div>
           
           <div class="available-coupons">
-            <h4>可用优惠券</h4>
+            <h4>{{ $t('checkout.availableCoupons') }}</h4>
             <div 
               v-for="coupon in availableCoupons" 
               :key="coupon.id"
@@ -176,10 +176,10 @@
       
       <!-- 订单备注 -->
       <div class="checkout-section">
-        <h2 class="section-title">📝 订单备注</h2>
+        <h2 class="section-title">{{ $t('checkout.orderNote') }}</h2>
         <textarea 
           v-model="orderNote" 
-          placeholder="请输入订单备注（选填）" 
+          :placeholder="$t('checkout.orderNotePlaceholder')" 
           class="form-textarea order-note"
         ></textarea>
       </div>
@@ -190,25 +190,25 @@
       <div class="summary-container">
         <div class="price-breakdown">
           <div class="price-item">
-            <span>商品总价</span>
+            <span>{{ $t('checkout.productTotal') }}</span>
             <span>¥{{ productTotal.toFixed(2) }}</span>
           </div>
           <div class="price-item">
-            <span>配送费用</span>
-            <span>{{ deliveryFee === 0 ? '免费' : `¥${deliveryFee.toFixed(2)}` }}</span>
+            <span>{{ $t('checkout.deliveryFee') }}</span>
+            <span>{{ deliveryFee === 0 ? $t('checkout.free') : `¥${deliveryFee.toFixed(2)}` }}</span>
           </div>
           <div v-if="appliedCoupon" class="price-item discount">
-            <span>优惠券折扣</span>
+            <span>{{ $t('checkout.couponDiscount') }}</span>
             <span>-¥{{ appliedCoupon.discount.toFixed(2) }}</span>
           </div>
           <div class="price-item total">
-            <span>订单总价</span>
+            <span>{{ $t('checkout.orderTotal') }}</span>
             <span>¥{{ finalTotal.toFixed(2) }}</span>
           </div>
         </div>
         
         <button @click="submitOrder" :disabled="!canSubmit" class="pixel-btn submit-btn">
-          💰 确认支付 ¥{{ finalTotal.toFixed(2) }}
+          {{ $t('checkout.confirmPayment') }} ¥{{ finalTotal.toFixed(2) }}
         </button>
       </div>
     </div>
@@ -216,14 +216,14 @@
     <!-- 支付确认弹窗 -->
     <div v-if="showPaymentModal" class="payment-modal">
       <div class="modal-content">
-        <h3>确认支付</h3>
+        <h3>{{ $t('checkout.paymentConfirmTitle') }}</h3>
         <div class="payment-info">
-          <p>支付方式: {{ selectedPaymentMethod?.name }}</p>
-          <p>支付金额: ¥{{ finalTotal.toFixed(2) }}</p>
+          <p>{{ $t('checkout.paymentMethodLabel') }}: {{ selectedPaymentMethod?.name }}</p>
+          <p>{{ $t('checkout.paymentAmountLabel') }}: ¥{{ finalTotal.toFixed(2) }}</p>
         </div>
         <div class="modal-actions">
-          <button @click="confirmPayment" class="pixel-btn confirm-btn">确认支付</button>
-          <button @click="cancelPayment" class="pixel-btn cancel-btn">取消</button>
+          <button @click="confirmPayment" class="pixel-btn confirm-btn">{{ $t('checkout.confirmPaymentBtn') }}</button>
+          <button @click="cancelPayment" class="pixel-btn cancel-btn">{{ $t('checkout.cancelPayment') }}</button>
         </div>
       </div>
     </div>
